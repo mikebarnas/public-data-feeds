@@ -10,6 +10,25 @@ and `sample_source_key` that the old extract was silently destroying.
 
 ---
 
+## Contents
+
+- [1. `pFeedBase` — the one place the URL lives](#1-pfeedbase-the-one-place-the-url-lives)
+- [2. `fnFeedCsv` — shared loader](#2-fnfeedcsv-shared-loader)
+- [3. `DIM_MPI_ESTABLISHMENTS`](#3-dim_mpi_establishments)
+- [4. `DIM_FSIS_MODIFIED_LINE_SPEED`](#4-dim_fsis_modified_line_speed)
+- [5. `DIM_FSIS_SAMPLING_PROJECT`](#5-dim_fsis_sampling_project)
+- [6. `DIM_FSIS_SAMPLE_SOURCE`](#6-dim_fsis_sample_source)
+- [7. `FACT_FSIS_RAW_POULTRY_SAMPLES` — combines all 13 fiscal years](#7-fact_fsis_raw_poultry_samples-combines-all-13-fiscal-years)
+- [8. `FACT_FSIS_RAW_POULTRY_ISOLATES`](#8-fact_fsis_raw_poultry_isolates)
+- [9. `FACT_CDC_BEAM`](#9-fact_cdc_beam)
+- [10. `FACT_CDC_NORS`](#10-fact_cdc_nors)
+- [11. `FACT_MONTHLY_SALMONELLA_CATEGORIES`](#11-fact_monthly_salmonella_categories)
+- [12. `DIM_CALENDAR` — use this, not auto date/time](#12-dim_calendar-use-this-not-auto-datetime)
+- [Model wiring](#model-wiring)
+- [The measures that fix the wrong rates](#the-measures-that-fix-the-wrong-rates)
+- [Refresh settings](#refresh-settings)
+- [Appendix — Retiring the old `FACT_FSIS_RAW_POULTRY_SAMPLING` query](#appendix-retiring-the-old-fact_fsis_raw_poultry_sampling-query)
+
 ## 1. `pFeedBase` — the one place the URL lives
 
 ```m
@@ -239,6 +258,14 @@ The result and cancellation-reason columns — `salmonella_sp_analysis`,
 `salmonella_result` / `campylobacter_result` and the `*_analyzed` / `*_positive` flags for
 measures instead.
 
+**`establishment_state` is on the fact table.** Decided in favour of keeping it there rather
+than reaching it through `DIM_MPI_ESTABLISHMENTS`: that dimension is unique on
+`establishment_number` + `est_status`, so a state filter sourced from the dimension would
+force the Active-only variant of query 3 and quietly drop samples taken at establishments
+that have since gone inactive. It is a two-character text column, populated on 100% of rows,
+44 distinct values. Build state slicers directly off the fact and off
+`FACT_FSIS_RAW_POULTRY_ISOLATES`, which also carries it.
+
 The unique key is `sample_key`, **not `form_id`** — FSIS states a form can carry multiple
 sample numbers and two form_ids in the history actually do. Use `sample_key` if you need a
 one-row anchor.
@@ -379,6 +406,125 @@ existing measures against it still work.
 
 ---
 
+## 12. `DIM_CALENDAR` — use this, not auto date/time
+
+```m
+let
+    // NORS reaches back to 1971, so the calendar has to as well.
+    StartDate  = #date(1971, 1, 1),
+
+    // Extend through the end of the current federal fiscal year, which rolls
+    // automatically on 1 October.
+    Today      = Date.From( DateTime.LocalNow() ),
+    FYEndYear  = if Date.Month(Today) >= 10 then Date.Year(Today) + 1 else Date.Year(Today),
+    EndDate    = #date(FYEndYear, 9, 30),
+
+    DayCount   = Duration.Days(EndDate - StartDate) + 1,
+    DateList   = List.Dates(StartDate, DayCount, #duration(1, 0, 0, 0)),
+    AsTable    = Table.FromList(DateList, Splitter.SplitByNothing(), {"Date"}),
+    Typed      = Table.TransformColumnTypes(AsTable, {{"Date", type date}}),
+
+    Cols = Table.AddColumn(Typed, "date_key",
+               each Date.Year([Date]) * 10000 + Date.Month([Date]) * 100 + Date.Day([Date]),
+               Int64.Type),
+    C2   = Table.AddColumn(Cols, "Year",         each Date.Year([Date]),  Int64.Type),
+    C3   = Table.AddColumn(C2,   "Month Number", each Date.Month([Date]), Int64.Type),
+    C4   = Table.AddColumn(C3,   "Month Name",   each Date.MonthName([Date]),   type text),
+    C5   = Table.AddColumn(C4,   "Month Short",  each Text.Start(Date.MonthName([Date]), 3), type text),
+    C6   = Table.AddColumn(C5,   "year_month",
+               each Text.From(Date.Year([Date])) & "-"
+                    & Text.PadStart(Text.From(Date.Month([Date])), 2, "0"), type text),
+    C7   = Table.AddColumn(C6,   "Year Month Sort",
+               each Date.Year([Date]) * 100 + Date.Month([Date]), Int64.Type),
+    C8   = Table.AddColumn(C7,   "Quarter",      each Date.QuarterOfYear([Date]), Int64.Type),
+    C9   = Table.AddColumn(C8,   "Month Start",  each Date.StartOfMonth([Date]),  type date),
+
+    // Federal fiscal year: 1 October through 30 September. FY2026 began 2025-10-01,
+    // which is exactly how the sampling feed's own fiscal_year column is derived.
+    F1 = Table.AddColumn(C9, "Fiscal Year",
+             each if Date.Month([Date]) >= 10 then Date.Year([Date]) + 1 else Date.Year([Date]),
+             Int64.Type),
+    F2 = Table.AddColumn(F1, "Fiscal Month Number",
+             each if Date.Month([Date]) >= 10 then Date.Month([Date]) - 9 else Date.Month([Date]) + 3,
+             Int64.Type),
+    F3 = Table.AddColumn(F2, "Fiscal Quarter",
+             each Number.RoundUp([Fiscal Month Number] / 3), Int64.Type),
+    F4 = Table.AddColumn(F3, "Fiscal Year Label",
+             each "FY" & Text.From([Fiscal Year]), type text),
+
+    Keys = Table.AddKey(F4, {"Date"}, true)
+in
+    Keys
+```
+
+Mark it as the date table (Table tools → Mark as date table → `Date`), then set
+**File → Options → Data Load → Time intelligence → uncheck Auto date/time**.
+
+Sort `Month Name` by `Month Number` and `year_month` by `Year Month Sort`.
+
+### Why, specifically for this model
+
+**Auto date/time does nothing at all for most of your date columns.** It only fires on
+columns typed date or datetime. Every key these feeds expose — `date_key`,
+`collection_date_key`, `CALENDAR_KEY`, `grant_date_key`, `Posted Date Key` — is an
+integer, so auto date/time ignores them entirely. You would be relating facts on integer
+keys with no date table behind them.
+
+**It cannot share a slicer across your five fact tables.** Auto date/time builds a
+separate hidden date table per date column, and each one filters only its own column. You
+have samples, isolates, BEAM, NORS and Salmonella verification all needing to respond to
+one date filter. That is precisely the job a conformed calendar exists to do, and hidden
+per-column tables cannot do it at any price.
+
+**It has no concept of a fiscal year, and FSIS runs on one.** The federal fiscal year
+starts 1 October — FY2026 began 2025-10-01. Auto date/time gives you calendar years only,
+so an FY-over-FY comparison is impossible with it. The sampling fact carries its own
+`fiscal_year`, but BEAM, NORS and the Salmonella feed do not, so fiscal has to live in the
+calendar or the report can never align them.
+
+**Model bloat.** Across these feeds there are ten real date columns — `grant_date`,
+`load_date`, `LatestMPIActiveDate`, `category_start_date`, `category_end_date`,
+`date_granted`, `collection_date`, `DATE`, `Load Date`, `Posted Date`. Auto date/time
+would generate a hidden dated table for every one of them, each spanning the full range of
+its column. `grant_date` alone reaches back to 1955-07-01, so that hidden table would
+cover 71 years on its own.
+
+### The one wrinkle worth planning for
+
+Three of your five facts are monthly, not daily. BEAM, NORS and the Salmonella feed all
+carry day `01` for every single row — that is the month, not a real date. Only the sampling
+fact is genuinely daily, at 2013-10-01 through 2026-03-31.
+
+A single daily calendar handles this correctly, but only if you slice those three facts by
+`Year`, `year_month`, `Fiscal Year` or `Month Start` and **never by `Date` or day of
+month**. Put a daily axis on a BEAM visual and you get a spike on the 1st and eleven empty
+days — technically accurate, visually wrong.
+
+If you would rather have the model enforce that than rely on discipline, add a `DIM_MONTH`
+at month grain and relate the three monthly facts to it on `Year Month Sort` instead:
+
+```m
+let
+    Source = DIM_CALENDAR,
+    Firsts = Table.SelectRows(Source, each Date.Day([Date]) = 1),
+    Cols   = Table.SelectColumns(Firsts,
+                 {"Year Month Sort", "year_month", "Year", "Month Number", "Month Name",
+                  "Month Short", "Quarter", "Month Start", "Fiscal Year",
+                  "Fiscal Quarter", "Fiscal Year Label"}),
+    Keys   = Table.AddKey(Cols, {"Year Month Sort"}, true)
+in
+    Keys
+```
+
+Both feeds already publish `year_month` in `YYYY-MM` form for exactly this, so the join is
+there whichever way you go.
+
+One last thing: **do not relate `grant_date` to the calendar.** It is a slowly-changing
+attribute of an establishment, not an event you report over time, and connecting it drags
+the calendar back to 1955 for no benefit. Leave it as a plain date column on the dimension.
+
+---
+
 ## Model wiring
 
 | From | To | Cardinality |
@@ -514,126 +660,7 @@ Sources: [Web.Contents and RelativePath for scheduled refresh](https://learn.mic
 
 ---
 
-## 12. `DIM_CALENDAR` — use this, not auto date/time
-
-```m
-let
-    // NORS reaches back to 1971, so the calendar has to as well.
-    StartDate  = #date(1971, 1, 1),
-
-    // Extend through the end of the current federal fiscal year, which rolls
-    // automatically on 1 October.
-    Today      = Date.From( DateTime.LocalNow() ),
-    FYEndYear  = if Date.Month(Today) >= 10 then Date.Year(Today) + 1 else Date.Year(Today),
-    EndDate    = #date(FYEndYear, 9, 30),
-
-    DayCount   = Duration.Days(EndDate - StartDate) + 1,
-    DateList   = List.Dates(StartDate, DayCount, #duration(1, 0, 0, 0)),
-    AsTable    = Table.FromList(DateList, Splitter.SplitByNothing(), {"Date"}),
-    Typed      = Table.TransformColumnTypes(AsTable, {{"Date", type date}}),
-
-    Cols = Table.AddColumn(Typed, "date_key",
-               each Date.Year([Date]) * 10000 + Date.Month([Date]) * 100 + Date.Day([Date]),
-               Int64.Type),
-    C2   = Table.AddColumn(Cols, "Year",         each Date.Year([Date]),  Int64.Type),
-    C3   = Table.AddColumn(C2,   "Month Number", each Date.Month([Date]), Int64.Type),
-    C4   = Table.AddColumn(C3,   "Month Name",   each Date.MonthName([Date]),   type text),
-    C5   = Table.AddColumn(C4,   "Month Short",  each Text.Start(Date.MonthName([Date]), 3), type text),
-    C6   = Table.AddColumn(C5,   "year_month",
-               each Text.From(Date.Year([Date])) & "-"
-                    & Text.PadStart(Text.From(Date.Month([Date])), 2, "0"), type text),
-    C7   = Table.AddColumn(C6,   "Year Month Sort",
-               each Date.Year([Date]) * 100 + Date.Month([Date]), Int64.Type),
-    C8   = Table.AddColumn(C7,   "Quarter",      each Date.QuarterOfYear([Date]), Int64.Type),
-    C9   = Table.AddColumn(C8,   "Month Start",  each Date.StartOfMonth([Date]),  type date),
-
-    // Federal fiscal year: 1 October through 30 September. FY2026 began 2025-10-01,
-    // which is exactly how the sampling feed's own fiscal_year column is derived.
-    F1 = Table.AddColumn(C9, "Fiscal Year",
-             each if Date.Month([Date]) >= 10 then Date.Year([Date]) + 1 else Date.Year([Date]),
-             Int64.Type),
-    F2 = Table.AddColumn(F1, "Fiscal Month Number",
-             each if Date.Month([Date]) >= 10 then Date.Month([Date]) - 9 else Date.Month([Date]) + 3,
-             Int64.Type),
-    F3 = Table.AddColumn(F2, "Fiscal Quarter",
-             each Number.RoundUp([Fiscal Month Number] / 3), Int64.Type),
-    F4 = Table.AddColumn(F3, "Fiscal Year Label",
-             each "FY" & Text.From([Fiscal Year]), type text),
-
-    Keys = Table.AddKey(F4, {"Date"}, true)
-in
-    Keys
-```
-
-Mark it as the date table (Table tools → Mark as date table → `Date`), then set
-**File → Options → Data Load → Time intelligence → uncheck Auto date/time**.
-
-Sort `Month Name` by `Month Number` and `year_month` by `Year Month Sort`.
-
-### Why, specifically for this model
-
-**Auto date/time does nothing at all for most of your date columns.** It only fires on
-columns typed date or datetime. Every key these feeds expose — `date_key`,
-`collection_date_key`, `CALENDAR_KEY`, `grant_date_key`, `Posted Date Key` — is an
-integer, so auto date/time ignores them entirely. You would be relating facts on integer
-keys with no date table behind them.
-
-**It cannot share a slicer across your five fact tables.** Auto date/time builds a
-separate hidden date table per date column, and each one filters only its own column. You
-have samples, isolates, BEAM, NORS and Salmonella verification all needing to respond to
-one date filter. That is precisely the job a conformed calendar exists to do, and hidden
-per-column tables cannot do it at any price.
-
-**It has no concept of a fiscal year, and FSIS runs on one.** The federal fiscal year
-starts 1 October — FY2026 began 2025-10-01. Auto date/time gives you calendar years only,
-so an FY-over-FY comparison is impossible with it. The sampling fact carries its own
-`fiscal_year`, but BEAM, NORS and the Salmonella feed do not, so fiscal has to live in the
-calendar or the report can never align them.
-
-**Model bloat.** Across these feeds there are ten real date columns — `grant_date`,
-`load_date`, `LatestMPIActiveDate`, `category_start_date`, `category_end_date`,
-`date_granted`, `collection_date`, `DATE`, `Load Date`, `Posted Date`. Auto date/time
-would generate a hidden dated table for every one of them, each spanning the full range of
-its column. `grant_date` alone reaches back to 1955-07-01, so that hidden table would
-cover 71 years on its own.
-
-### The one wrinkle worth planning for
-
-Three of your five facts are monthly, not daily. BEAM, NORS and the Salmonella feed all
-carry day `01` for every single row — that is the month, not a real date. Only the sampling
-fact is genuinely daily, at 2013-10-01 through 2026-03-31.
-
-A single daily calendar handles this correctly, but only if you slice those three facts by
-`Year`, `year_month`, `Fiscal Year` or `Month Start` and **never by `Date` or day of
-month**. Put a daily axis on a BEAM visual and you get a spike on the 1st and eleven empty
-days — technically accurate, visually wrong.
-
-If you would rather have the model enforce that than rely on discipline, add a `DIM_MONTH`
-at month grain and relate the three monthly facts to it on `Year Month Sort` instead:
-
-```m
-let
-    Source = DIM_CALENDAR,
-    Firsts = Table.SelectRows(Source, each Date.Day([Date]) = 1),
-    Cols   = Table.SelectColumns(Firsts,
-                 {"Year Month Sort", "year_month", "Year", "Month Number", "Month Name",
-                  "Month Short", "Quarter", "Month Start", "Fiscal Year",
-                  "Fiscal Quarter", "Fiscal Year Label"}),
-    Keys   = Table.AddKey(Cols, {"Year Month Sort"}, true)
-in
-    Keys
-```
-
-Both feeds already publish `year_month` in `YYYY-MM` form for exactly this, so the join is
-there whichever way you go.
-
-One last thing: **do not relate `grant_date` to the calendar.** It is a slowly-changing
-attribute of an establishment, not an event you report over time, and connecting it drags
-the calendar back to 1955 for no benefit. Leave it as a plain date column on the dimension.
-
----
-
-## 13. Retiring the old `FACT_FSIS_RAW_POULTRY_SAMPLING` query
+## Appendix — Retiring the old `FACT_FSIS_RAW_POULTRY_SAMPLING` query
 
 Delete it, along with any error-detection query built on top of it. It is the source of the
 type-mismatch errors, and none of that class of error can occur against these feeds: the
