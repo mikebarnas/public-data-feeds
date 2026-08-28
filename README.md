@@ -220,6 +220,10 @@ it guesses the type.
 
 ## Reading a feed from Power BI
 
+Complete copy-ready M queries for every feed, plus the model wiring and the measures that
+fix the denominator bugs, are in [POWER_BI_M_QUERIES.md](POWER_BI_M_QUERIES.md).
+
+
 No gateway is needed. Microsoft's guidance is that semantic models on cloud sources
 "don't require a data gateway if Power BI can establish a direct network connection to
 the source," and the refresh support matrix covers all online sources shown in Power
