@@ -156,14 +156,16 @@ let
             {"fiscal_year",                        Int64.Type},
             {"salmonella_positive",                Int64.Type},
             {"campylobacter_positive",             Int64.Type},
-            {"salmonellae_mpn_g",                  type number},
-            {"salmonella_quantitative_cfu_g",      type number},
-            {"salmonella_quantitative_cfu_ml",     type number},
-            {"aerobic_plate_count_mpn_ml",         type number},
-            {"aerobic_plate_count_mpn_g",          type number},
-            {"aerobic_plate_count_mpn_100_sq_cm",  type number},
-            {"enterobacteriaceae_mpn_ml",          type number},
-            {"enterobacteriaceae_mpn_100_sq_cm",   type number}
+
+            // Convert the parsed companions, never the raw columns. See below.
+            {"salmonellae_mpn_g_value",                 type number},
+            {"salmonella_quantitative_cfu_g_value",     type number},
+            {"salmonella_quantitative_cfu_ml_value",    type number},
+            {"aerobic_plate_count_mpn_ml_value",        type number},
+            {"aerobic_plate_count_mpn_g_value",         type number},
+            {"aerobic_plate_count_mpn_100_sq_cm_value", type number},
+            {"enterobacteriaceae_mpn_ml_value",         type number},
+            {"enterobacteriaceae_mpn_100_sq_cm_value",  type number}
         }
     ),
     Keys = Table.AddKey(Typed, {"sample_key"}, true)
@@ -173,6 +175,69 @@ in
 
 318,175 rows across FY2014–FY2026. When FSIS adds FY2027 the manifest gains a row and
 this query picks it up with no edit.
+
+**Never type the eight quantitative enumeration columns as numbers.** This is the single
+most likely source of type-mismatch errors on this table. They hold censored results mixed
+in with plain numbers — `<10` meaning below the limit of detection, `> 1100` meaning above
+the highest countable dilution — plus a handful of non-result strings. Every censored row
+throws an error the moment the column is typed numeric:
+
+| Column | Populated | Censored | Non-result |
+| --- | --- | --- | --- |
+| `salmonellae_mpn_g` | 1,830 | 651 | 10 (`No Reserve`) |
+| `salmonella_quantitative_cfu_g` | 1,881 | 1,773 | 0 |
+| `salmonella_quantitative_cfu_ml` | 6,871 | 5,805 | 0 |
+| `aerobic_plate_count_mpn_ml` | 20,060 | 3,165 | 0 |
+| `aerobic_plate_count_mpn_g` | 1,887 | 458 | 1 (`no result available`) |
+| `aerobic_plate_count_mpn_100_sq_cm` | 30 | 0 | 0 |
+| `enterobacteriaceae_mpn_ml` | 9,547 | 4,091 | 0 |
+| `enterobacteriaceae_mpn_100_sq_cm` | 30 | 26 | 0 |
+
+`salmonella_quantitative_cfu_ml` is the worst of them: 5,805 of 6,871 populated values are
+censored, so typing it numeric errors on 84% of the data it has.
+
+The feed now ships two companion columns for each, so nothing has to be parsed in Power
+Query:
+
+- `<column>_value` — the numeric bound, comma separators stripped, safe to type as number
+- `<column>_censor` — `<`, `<=`, `>`, `>=`, or blank when the value is exact
+
+Both are blank on the 11 non-result rows, so those drop out of aggregation instead of being
+counted as zero. The raw column is untouched, so anything already pointed at it still
+works.
+
+Be deliberate about which you aggregate. `AVERAGE` over `_value` treats `<10` as exactly
+10, which biases the mean upward; filtering to `_censor = ""` gives the mean of exact
+results only but discards real observations. For a limit-of-detection-heavy column like
+`salmonella_quantitative_cfu_ml` neither is innocent — report the censored share alongside
+any mean:
+
+```dax
+CFU/mL Exact Results =
+CALCULATE (
+    COUNTROWS ( FACT_FSIS_RAW_POULTRY_SAMPLES ),
+    FACT_FSIS_RAW_POULTRY_SAMPLES[salmonella_quantitative_cfu_ml_censor] = BLANK ( ),
+    NOT ISBLANK ( FACT_FSIS_RAW_POULTRY_SAMPLES[salmonella_quantitative_cfu_ml_value] )
+)
+
+CFU/mL Censored Results =
+CALCULATE (
+    COUNTROWS ( FACT_FSIS_RAW_POULTRY_SAMPLES ),
+    NOT ISBLANK ( FACT_FSIS_RAW_POULTRY_SAMPLES[salmonella_quantitative_cfu_ml_censor] )
+)
+
+CFU/mL Percent Censored =
+DIVIDE (
+    [CFU/mL Censored Results],
+    [CFU/mL Exact Results] + [CFU/mL Censored Results]
+)
+```
+
+The result and cancellation-reason columns — `salmonella_sp_analysis`,
+`campylobacter_analysis_30ml`, every `*_canceled` column — are text (`Positive`,
+`Negative`, `07  Temperature too high`). Leave them text. Use the derived
+`salmonella_result` / `campylobacter_result` and the `*_analyzed` / `*_positive` flags for
+measures instead.
 
 The unique key is `sample_key`, **not `form_id`** — FSIS states a form can carry multiple
 sample numbers and two form_ids in the history actually do. Use `sample_key` if you need a
@@ -565,3 +630,43 @@ there whichever way you go.
 One last thing: **do not relate `grant_date` to the calendar.** It is a slowly-changing
 attribute of an establishment, not an event you report over time, and connecting it drags
 the calendar back to 1955 for no benefit. Leave it as a plain date column on the dimension.
+
+---
+
+## 13. Retiring the old `FACT_FSIS_RAW_POULTRY_SAMPLING` query
+
+Delete it, along with any error-detection query built on top of it. It is the source of the
+type-mismatch errors, and none of that class of error can occur against these feeds: the
+CSVs are published as text and the queries above convert only named columns deliberately.
+
+Why the old one errors. Power Query sampled the JSON, guessed a type per column from what
+it saw, and then hit contradicting values further down — the censored `<10` and `> 1100`
+results in the eight quantitative columns above, `Positive` / `Negative` in columns it had
+guessed numeric, and `3.01E+08` where Excel had already reformatted a sample number into
+scientific notation. Type detection on a 174-column nested JSON expansion is a guess, and
+it was wrong in at least three different ways.
+
+Column mapping, so nothing is lost:
+
+| Old column | Where it is now |
+| --- | --- |
+| `data.secondary_table_data` | its own table, `FACT_FSIS_RAW_POULTRY_ISOLATES` — this nested array is what was silently dropping 6,054 isolates |
+| `establishment_name` | `DIM_MPI_ESTABLISHMENTS[establishment_name]`, plus `standardized_name` and `company_name` |
+| `establishment_state` | `DIM_MPI_ESTABLISHMENTS[state]` |
+| `project_name` | `DIM_FSIS_SAMPLING_PROJECT[project_name]` |
+| `sample_source_name` | `DIM_FSIS_SAMPLE_SOURCE[sample_source_name]` |
+| `listeria_analysis`, `listeria_analysis_canceled` | **nowhere — these fields do not exist upstream.** See below |
+| all 130 AST/WGS/MIC columns | `FACT_FSIS_RAW_POULTRY_ISOLATES`, at the correct grain |
+| everything else | `FACT_FSIS_RAW_POULTRY_SAMPLES` |
+
+**The two Listeria columns are phantoms.** Reading all 13 fiscal-year files directly, the
+FSIS primary sample record has exactly 30 fields in every year from FY2014 to FY2026, and
+neither `listeria_analysis` nor `listeria_analysis_canceled` is among them — no field with
+"listeria" in the name exists at all. They are 100% null in your current model, which means
+any Listeria visual or card in the report has been silently empty rather than showing zero.
+Worth checking the report for one before Phibro does.
+
+The four dimension columns are the reason the samples fact went from 174 columns to 53.
+They were repeated on all 318,175 rows; moving them to dimensions is what took the combined
+samples table from 91 MiB to roughly 4 MiB per fiscal year, which is what allowed the
+per-year split to work inside GitHub's file limits.
