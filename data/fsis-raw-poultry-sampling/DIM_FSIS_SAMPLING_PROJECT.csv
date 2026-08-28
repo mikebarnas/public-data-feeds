@@ -1,0 +1,35 @@
+project_code,project_name
+EXP_CH_MSK01,Exploratory Sampling for Mechanically Separated Chicken
+EXP_CPT_OT01,Exploratory Sampling for Chicken Parts - Others Parts
+EXP_CPT_QH01,Exploratory Sampling for Chicken Parts - Quarter and Half Carcasses
+EXP_TU_MSK01,Exploratory Sampling for Mechanically Separated Turkey
+EX_CHCAR_RH1,Exploratory Young Chicken Carcass Rehang Sampling
+F_CH_CARC01,Follow-up sampling of Chicken Carcasses
+F_CH_COM01,Follow-up sampling of Comminuted Chicken
+F_CPT_LBW01,"Follow-up sampling of Chicken Parts – legs, breasts, wings"
+F_TU_CARC01,Follow-up sampling of Turkey Carcasses
+F_TU_COM01,Follow-up sampling of Comminuted Turkey
+HC_CH_CARC01,HACCP Verification for Young Chicken Carcasses
+HC_CH_COM01,Sampling for Ground and Other Comminuted Chicken (not Mechanically Separated)
+HC_CPT_LBW01,"Sampling for Chicken Parts – Legs, Breasts, and  Wings"
+HC_TU_CARC01,HACCP Verification for Young Turkey Carcasses
+HC_TU_COM01,Sampling for Ground and Other Comminuted Turkey (not Mechanically Separated)
+LO_CH_CARC01,Very Low Volume Sampling for Chicken Carcasses
+LO_CH_COM01,Very Low Volume Sampling for Ground and Other Comminuted Chicken (not Mechanically Separated)
+LO_CH_MSK01,Very Low Volume Sampling for Mechanically Separated Chicken
+LO_CPT_LBW01,"Very Low Volume Sampling for Raw Chicken Parts - Legs, Breast, Wings"
+LO_CPT_OT01,Very Low Volume Sampling for Raw Chicken Parts - Other Parts
+LO_CPT_QH01,Very Low Volume Sampling for Chicken Parts - Quarters/Halves
+LO_TU_CARC01,Very Low Volume Sampling for Turkey Carcasses
+LO_TU_COM01,Very Low Volume Sampling for Ground and Other Comminuted Turkey (not Mechanically Separated)
+NRTE_EXP_CH,NRTE (Not-Ready-to-Eat)  Comminuted Poultry Exploratory Sampling - Chickens
+NRTE_EXP_TU,NRTE (Not-Ready-to-Eat)  Comminuted Poultry Exploratory Sampling - Turkeys
+RE_CH_CARC01,Religious Exempt Sampling for Chicken Carcasses
+SPECPGM_02,Intensifed Sampling - S. Heidelberg
+SPECPGM_02B,Intensified Sampling at Establishments Associated with PFGE Matches to Outbreak Strains
+SPECPGM_05,Stuffed Chicken Outbreak Sampling - product
+SPECPGM_05E,Stuffed Chicken Outbreak Sampling - environmental (food-contact) swab
+SPECPGM_06,Stuffed Chicken Outbreak Sampling - product
+SPECPGM_06E,Stuffed Chicken Outbreak Sampling - environmental (food-contact) swab
+SPECPGM_07,Turkey Carcass Sponge Sampling - In-plant trial
+SPECPGM_RTEP,Special Program Sampling - Ready to Eat Product

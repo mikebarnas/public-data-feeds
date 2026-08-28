@@ -1,0 +1,45 @@
+establishment_number,establishment_number_raw,company,standardized_name,location,city,state,date_granted,date_granted_key,modified_line_speed_flag
+P1009,P-1009,"Wayne Farms, LLC",Wayne Farms,"Danville, AR",Danville,AR,2023-03-31,20230331,Y
+P1201,P-1201,Pilgrim's Pride Corp.,Pilgrim's Pride Corp.,"Sanford, NC",Sanford,NC,2023-03-31,20230331,Y
+P1235,P-1235,"Wayne Farms, LLC",Wayne Farms,"Decatur, AL",Decatur,AL,2023-03-31,20230331,Y
+P1249,P-1249,"George's Chicken, LLC",George's Chicken,"Edinburg, VA",Edinburg,VA,2023-03-31,20230331,Y
+P1250,P-1250,"Fieldale Farms, Inc.","Fieldale Farms, Inc.","Cornelia, GA",Cornelia,GA,2023-03-31,20230331,Y
+P1257,P-1257,"Fieldale Farms, Inc.","Fieldale Farms, Inc.","Murrayville, GA",Murrayville,GA,2023-03-31,20230331,Y
+P1294,P-1294,"Holmes Foods, Inc.","Holmes Foods, Inc.","Nixon, TX",Nixon,TX,2023-03-31,20230331,Y
+P1315,P-1315,"Tyson Foods, Inc.",Tyson Foods,"Monett, MO",Monett,MO,2023-03-31,20230331,Y
+P1317,P-1317,"Wayne Farms, LLC",Wayne Farms,"Albertville, AL",Albertville,AL,2023-03-31,20230331,Y
+P1325,P-1325,"Tyson Foods, Inc.",Tyson Foods,"New Holland, PA",New Holland,PA,2023-03-31,20230331,Y
+P13369,P-13369,"George's Processing, Inc.",George's Processing,"Cassville, MO",Cassville,MO,2023-03-31,20230331,Y
+P13556,P-13556,"Tyson Foods, Inc.",Tyson Foods,"Sedalia, MO",Sedalia,MO,2023-03-31,20230331,Y
+P165H,P-165H,"OK Foods, Inc.",OK Foods,"Heavener, OK",Heavener,OK,2023-03-31,20230331,Y
+P165S,P-165S,"OK Foods, Inc.",OK Foods,"Fort Smith, AR",Fort Smith,AR,2023-03-31,20230331,Y
+P170,P-170,"Wayne Farms, LLC",Wayne Farms,"Pendergrass, GA",Pendergrass,GA,2023-03-31,20230331,Y
+P177,P-177,Pilgrim's Pride Corp.,Pilgrim's Pride Corp.,"Gainesville, GA",Gainesville,GA,2023-03-31,20230331,Y
+P19128,P-19128,Case Farms,Case Farms,"Dudley, NC",Dudley,NC,2023-03-31,20230331,Y
+P192,P-192,Pilgrim's Pride Corp.,Pilgrim's Pride Corp.,"Guntersville, AL",Guntersville,AL,2023-03-31,20230331,Y
+P19514,P-19514,"Tyson Foods, Inc.",Tyson Foods,"Robards, KY",Robards,KY,2023-03-31,20230331,Y
+P208,P-208,"George's Processing, Inc.",George's Processing,"Springdale, AR",Springdale,AR,2023-03-31,20230331,Y
+P243,P-243,"Tyson Foods, Inc.",Tyson Foods,"Cumming, GA",Cumming,GA,2023-03-31,20230331,Y
+P32,P-32,Mar-Jac Poultry,Mar-Jac Poultry,"Gainesville, GA",Gainesville,GA,2023-03-31,20230331,Y
+P341,P-341,Golden Rod Broilers,Golden Rod Broilers,"Cullman, AL",Cullman,AL,2023-03-31,20230331,Y
+P445,P-445,"Wayne Farms, LLC",Wayne Farms,"Dobson, NC",Dobson,NC,2023-03-31,20230331,Y
+P45483,P-45483,"Peco Foods, Inc.",Peco Foods,"Pocahontas, AR",Pocahontas,AR,2023-03-31,20230331,Y
+P46091,P-46091,"Ozark Mountain Poultry, Inc.",Ozark Mountain Poultry,"Batesville, AR",Batesville,AR,2023-03-31,20230331,Y
+P468,P-468,"Peco Foods, Inc.",Peco Foods,"Batesville, AR",Batesville,AR,2023-03-31,20230331,Y
+P517,P-517,Mar-Jac Poultry,Mar-Jac Poultry,"Hattiesburg, MS",Hattiesburg,MS,2023-03-31,20230331,Y
+P519,P-519,"Amick Farms, LLC",Amick Farms,"Laurel, MS",Laurel,MS,2023-03-31,20230331,Y
+P548,P-548,"JCG Foods of Alabama, LLC","JCG Foods of Alabama, LLC","Collinsville, AL",Collinsville,AL,2023-03-31,20230331,Y
+P584,P-584,Pilgrim's Pride Corp.,Pilgrim's Pride Corp.,"Mount Pleasant, TX",Mount Pleasant,TX,2023-03-31,20230331,Y
+P6505,P-6505,"Norman W. Fries, Inc.",Norman W Fries,"Claxton, GA",Claxton,GA,2023-03-31,20230331,Y
+P7085,P-7085,"Tyson Foods, Inc.",Tyson Foods,"Broken Bow, OK",Broken Bow,OK,2023-03-31,20230331,Y
+P7101,P-7101,"Tyson Foods, Inc.",Tyson Foods,"Clarksville, AR",Clarksville,AR,2023-03-31,20230331,Y
+P72,P-72,"Tyson Foods, Inc.",Tyson Foods,"Dardanelle, AR",Dardanelle,AR,2023-03-31,20230331,Y
+P7342,P-7342,"Wayne Farms, LLC",Wayne Farms,"Dothan, AL",Dothan,AL,2023-03-31,20230331,Y
+P737,P-737,House of Raeford,House of Raeford,"Teachey, NC",Teachey,NC,2023-03-31,20230331,Y
+P7470,P-7470,"Mountaire Farms, Inc.",Mountaire Farms,"Lumber Bridge, NC",Lumber Bridge,NC,2023-03-31,20230331,Y
+P7485,P-7485,"Wayne Farms, LLC",Wayne Farms,"Jack, AL",Jack,AL,2023-03-31,20230331,Y
+P758,P-758,"Tyson Foods, Inc.",Tyson Foods,"Carthage, MS",Carthage,MS,2023-03-31,20230331,Y
+P768,P-768,"Tyson Foods, Inc.",Tyson Foods,"Waldron, AR",Waldron,AR,2023-03-31,20230331,Y
+P7927,P-7927,"Amick Farms, LLC",Amick Farms,"Hurlock, MD",Hurlock,MD,2023-03-31,20230331,Y
+P7987,P-7987,"Amick Farms, LLC",Amick Farms,"Batesburg, SC",Batesburg,SC,2023-03-31,20230331,Y
+P810,P-810,Pilgrim's Pride Corp.,Pilgrim's Pride Corp.,"Moorefield, WV",Moorefield,WV,2023-03-31,20230331,Y

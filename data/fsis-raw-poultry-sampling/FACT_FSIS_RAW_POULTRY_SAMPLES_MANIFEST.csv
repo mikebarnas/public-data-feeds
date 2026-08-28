@@ -1,0 +1,14 @@
+fiscal_year,file_name,url,row_count
+2014,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2014.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2014.csv,7354
+2015,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2015.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2015.csv,11108
+2016,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2016.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2016.csv,20089
+2017,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2017.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2017.csv,22496
+2018,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2018.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2018.csv,27604
+2019,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2019.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2019.csv,28883
+2020,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2020.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2020.csv,31453
+2021,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2021.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2021.csv,30881
+2022,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2022.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2022.csv,34613
+2023,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2023.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2023.csv,32035
+2024,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2024.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2024.csv,28941
+2025,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2025.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2025.csv,28564
+2026,FACT_FSIS_RAW_POULTRY_SAMPLES_FY2026.csv,https://raw.githubusercontent.com/mikebarnas/public-data-feeds/main/data/fsis-raw-poultry-sampling/FACT_FSIS_RAW_POULTRY_SAMPLES_FY2026.csv,14154
