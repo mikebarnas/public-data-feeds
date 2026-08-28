@@ -106,8 +106,8 @@ and the relationship is one-to-many. FSIS says so in the file's own metadata: *"
 cases, a single secondary test can be performed multiple times. This occurs when
 multiple Salmonella serotypes are identified from a single positive sample."*
 
-It is not rare. Across FY2014–FY2026, **6,053 isolate records sit on a `form_id` that
-carries more than one**, overwhelmingly a Salmonella isolate and a Campylobacter isolate
+It is not rare. Across FY2014–FY2026, **6,050 form_ids carry more than one isolate**, holding 12,104
+isolate records between them, so a one-row-per-sample flatten drops 6,054 of them, overwhelmingly a Salmonella isolate and a Campylobacter isolate
 recovered from the same bird. Any flatten that produces one row per sample discards
 them. That is the entire reason the isolate table is published separately.
 
@@ -121,8 +121,9 @@ them. That is the entire reason the isolate table is published separately.
   `form_id` + `pathogen_number` repeats on 31 groups because two serotypes recovered
   from one sample share a `pathogen_number`.
 
-**Derived columns that exist to prevent a specific wrong answer.** Only about 54% of
-samples are selected for Campylobacter analysis; the rest come back empty. Dividing
+**Derived columns that exist to prevent a specific wrong answer.** Campylobacter analysis
+coverage collapsed from about 95% of samples through FY2023 to roughly 52% from FY2024
+onward; unselected samples come back empty. Dividing
 Campylobacter positives by *all* samples understates the rate by roughly half. Use:
 
 | Column | Use |
