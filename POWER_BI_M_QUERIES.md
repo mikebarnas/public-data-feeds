@@ -298,6 +298,28 @@ form_ids carry more than one isolate, and the old one-row-per-sample flatten was
 Point every serotype and AMR visual at this table. Point sample counts and positivity
 rates at `FACT_FSIS_RAW_POULTRY_SAMPLES`. Do not try to merge them back into one table.
 
+**Relate the two tables on `sample_key`.** The isolate feed now carries the same
+`sample_key` as the samples fact, so this is a single-column one-to-many relationship:
+
+```
+FACT_FSIS_RAW_POULTRY_SAMPLES[sample_key]  1  ->  *  FACT_FSIS_RAW_POULTRY_ISOLATES[sample_key]
+```
+
+Single direction, samples filtering isolates. `sample_key` is unique on samples, and the
+most any one sample carries is 3 isolates. 71,876 of 71,882 isolate rows resolve to a sample;
+the 6 blanks are isolates FSIS published with no matching primary sample record (form_ids
+102889792, 103003493, 103035961, 103099437, 103134748), and they stay in the table rather
+than being silently dropped.
+
+**Do not join on `secondary_sample_number`.** It looks like it should match
+`sample_number` on the samples table and it does not — it agrees on 0 of 71,864 comparable
+rows, because it is the isolate's own laboratory number, not the parent sample's. A join
+built on it matches nothing and returns an empty visual. `form_id` is the only real link
+in the source data, and `sample_key` is derived from it.
+
+`sample_number` is deliberately absent from the isolate table for the same reason: sitting
+next to `secondary_sample_number` it invited exactly that confusion.
+
 ## 9. `FACT_CDC_BEAM`
 
 ```m
