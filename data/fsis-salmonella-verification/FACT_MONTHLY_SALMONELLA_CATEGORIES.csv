@@ -65422,3 +65422,727 @@ P286,Perdue Foods,Washington,IN,"Washington, IN",50,Comminuted Turkey,3,2025091,
 P7669,Turkey Valley Farms,Marshall,MN,"Marshall, MN",25,Comminuted Turkey,1,2025091,2025-09-01
 P8437+V8437,Koch's Turkey Farm,Tamaqua,PA,"Tamaqua, PA",60,Comminuted Turkey,1,2025091,2025-09-01
 P9332A,Diestel Turkey Ranch,Chinese Camp,CA,"Chinese Camp, CA",05,Comminuted Turkey,3,2025091,2025-09-01
+M1015+P1015+V1015,Empire Kosher Poultry,Mifflintown,PA,"Mifflintown, PA",60,Young Chicken Carcasses,1,2026091,2026-09-01
+M112+P112,Tyson Foods,Green Forest,AR,"Green Forest, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+M1234+P1234,Mountaire Farms,Siler City,NC,"Siler City, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+M13456+P13456+V13456,Tyson Foods,Pine Bluff,AR,"Pine Bluff, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+M13556+P13556,Tyson Foods,Sedalia,MO,"Sedalia, MO",35,Young Chicken Carcasses,1,2026091,2026-09-01
+M1655+P1655+V1655,Rashbe Holdings,Birdsboro,PA,"Birdsboro, PA",60,Young Chicken Carcasses,1,2026091,2026-09-01
+M17250+P6+V6,Tyson Foods,Blountsville,AL,"Blountsville, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+M17980+P17980,Pilgrim's Pride Corporation,Sumter,SC,"Sumter, SC",85,Young Chicken Carcasses,1,2026091,2026-09-01
+M19636+P19636,Tyson Foods,Union City,TN,"Union City, TN",90,Young Chicken Carcasses,1,2026091,2026-09-01
+M20322+P20322,Keystone Foods,Bakerhill,AL,"Bakerhill, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+M20446+P20446+V20446,Central Illinois Poultry Processing,Arthur,IL,"Arthur, IL",50,Young Chicken Carcasses,2,2026091,2026-09-01
+M20826+P20826+V20826,Griggstown Quail Farm,Princeton,NJ,"Princeton, NJ",80,Young Chicken Carcasses,1,2026091,2026-09-01
+M2161+P3,Mountaire Farms,Millsboro,DE,"Millsboro, DE",80,Young Chicken Carcasses,1,2026091,2026-09-01
+M27389+P27389+V27389,Pitman Farms,Sanger,CA,"Sanger, CA",05,Young Chicken Carcasses,2,2026091,2026-09-01
+M31727+P31727+V31727A,Kiryas Joel Poultry Processing Plant,Monroe,NY,"Monroe, NY",60,Young Chicken Carcasses,1,2026091,2026-09-01
+M322A+P322,Pilgrim's Pride Corporation,Cold Spring,MN,"Cold Spring, MN",25,Young Chicken Carcasses,1,2026091,2026-09-01
+M34145+P34145,Kadejan,Glenwood,MN,"Glenwood, MN",25,Young Chicken Carcasses,1,2026091,2026-09-01
+M4181+P4181,Mao Foods,Los Angeles,CA,"Los Angeles, CA",05,Young Chicken Carcasses,1,2026091,2026-09-01
+M44121+P44121,Pelleh Poultry Corp,Swan Lake,NY,"Swan Lake, NY",60,Young Chicken Carcasses,1,2026091,2026-09-01
+M46324A+P46324A+V46324A,Morning Star Poultry,Fort Plain,NY,"Fort Plain, NY",60,Young Chicken Carcasses,1,2026091,2026-09-01
+M46498+P46498,Westminster Meat Packing,Westminster,VT,"Westminster, VT",60,Young Chicken Carcasses,3,2026091,2026-09-01
+M4653A+P4653A+V4653A,Agri Star Meat and Poultry,Postville,IA,"Postville, IA",25,Young Chicken Carcasses,1,2026091,2026-09-01
+M47579+P47579,Tyson Foods,Humboldt,TN,"Humboldt, TN",90,Young Chicken Carcasses,1,2026091,2026-09-01
+M48281+P48281+V48281,White Lake Foods,Ferndale,NY,"Ferndale, NY",60,Young Chicken Carcasses,2,2026091,2026-09-01
+M51255+P51255,Natural State Processing,Clinton,AR,"Clinton, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+M56+P56,Pilgrim's Pride Corporation,TIMBERVILLE,VA,"TIMBERVILLE, VA",80,Young Chicken Carcasses,2,2026091,2026-09-01
+M5842+P5842+V5842,Tyson Foods,Springdale,AR,"Springdale, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+M6137+P6137,Foster Poultry Farms,Livingston,CA,"Livingston, CA",05,Young Chicken Carcasses,2,2026091,2026-09-01
+M667+P667,Mountaire Farms,Selbyville,DE,"Selbyville, DE",80,Young Chicken Carcasses,1,2026091,2026-09-01
+M7100+P7100+V7100,Tyson Foods,Nashville,AR,"Nashville, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+M737+P737,House of Raeford - Wallace Div,Teachey,NC,"Teachey, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+M7428+P7428+V7428,Joyce Foods,Winston Salem,NC,"Winston Salem, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+M744+P744,Vineland Poultry,Vineland,NJ,"Vineland, NJ",80,Young Chicken Carcasses,3,2026091,2026-09-01
+M7470+P7470,Mountaire Farms  - NC Division,Lumber Bridge,NC,"Lumber Bridge, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+M7478+P1,Tyson Foods,Wilkesboro,NC,"Wilkesboro, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+M7559+P134+V7559,David Elliot Poultry Farm,Scranton,PA,"Scranton, PA",60,Young Chicken Carcasses,3,2026091,2026-09-01
+M810+P810,Pilgrim's Pride Corporation,Moorefield,WV,"Moorefield, WV",80,Young Chicken Carcasses,2,2026091,2026-09-01
+M9977+P1325,Tyson Foods,New Holland,PA,"New Holland, PA",60,Young Chicken Carcasses,1,2026091,2026-09-01
+P1009,Wayne Farms,Danville,AR,"Danville, AR",35,Young Chicken Carcasses,2,2026091,2026-09-01
+P1137,Tyson Foods,Seguin,TX,"Seguin, TX",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P1235,Wayne Farms,Decatur,AL,"Decatur, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P1243,Perdue Foods,Rockingham,NC,"Rockingham, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P1249,George's Chicken,Edinburg,VA,"Edinburg, VA",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P1250,Fieldale Farms Corporation,Cornelia,GA,"Cornelia, GA",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P1254+V1254,Koch Foods of Ashland,Ashland,AL,"Ashland, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P1257,Fieldale Farms Corporation,Murrayville,GA,"Murrayville, GA",85,Young Chicken Carcasses,2,2026091,2026-09-01
+P1272,Pilgrim's Pride Corporation,Douglas,GA,"Douglas, GA",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P1284,Pilgrim's Pride Corporation,Canton,GA,"Canton, GA",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P1294+V1294,Holmes Foods,Nixon,TX,"Nixon, TX",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P1307,Mar-Jac Poultry-AL,Jasper,AL,"Jasper, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P1309,House of Raeford Farms,Greenville,SC,"Greenville, SC",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P1315,Tyson Foods,Monett,MO,"Monett, MO",35,Young Chicken Carcasses,2,2026091,2026-09-01
+P1317+V1317,Wayne Farms,Albertville,AL,"Albertville, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P1318,Perdue Foods,Milford,DE,"Milford, DE",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P13369+V13369,George's Processing,Cassville,MO,"Cassville, MO",35,Young Chicken Carcasses,1,2026091,2026-09-01
+P1353,Pilgrim's Pride Corporation,Chattanooga,TN,"Chattanooga, TN",90,Young Chicken Carcasses,2,2026091,2026-09-01
+P15724+V15724,Case Farms Processing,Winesburg,OH,"Winesburg, OH",50,Young Chicken Carcasses,1,2026091,2026-09-01
+P1605,Tide Mill Organic Farm,Edmunds Twp,ME,"Edmunds Twp, ME",60,Young Chicken Carcasses,2,2026091,2026-09-01
+P164,Tyson Foods,Forest,MS,"Forest, MS",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P165H,Bachoco OK Foods,Heavener,OK,"Heavener, OK",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P165S+V165S,Bachoco OK Foods,Fort Smith,AR,"Fort Smith, AR",35,Young Chicken Carcasses,2,2026091,2026-09-01
+P170,Wayne Farms,Pendergrass,GA,"Pendergrass, GA",85,Young Chicken Carcasses,2,2026091,2026-09-01
+P17340,Pilgrim's Pride Corporation,Hickory,KY,"Hickory, KY",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P17500,Pilgrim's Pride Corporation,Russellville,AL,"Russellville, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P177,Pilgrim's Pride Corporation,Gainesville,GA,"Gainesville, GA",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P18285,Perdue Foods,Dillon,SC,"Dillon, SC",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P18414,MB Consultants LTD,South Fallsburg,NY,"South Fallsburg, NY",60,Young Chicken Carcasses,2,2026091,2026-09-01
+P18438B,Dupont Market  dba Grimaud Farms,Stockton,CA,"Stockton, CA",05,Young Chicken Carcasses,3,2026091,2026-09-01
+P18557,Sanderson Farms,Summit,MS,"Summit, MS",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P18978,Misty Knoll Farms,New Haven,VT,"New Haven, VT",60,Young Chicken Carcasses,1,2026091,2026-09-01
+P19112,Perdue Foods,Cromwell,KY,"Cromwell, KY",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P19128,Case Farms Processing,Dudley,NC,"Dudley, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P19150+V19150,La Belle Farm,Ferndale,NY,"Ferndale, NY",60,Young Chicken Carcasses,3,2026091,2026-09-01
+P192,Pilgrim's Pride Corporation,Guntersville,AL,"Guntersville, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P1949,Simmons Prepared Foods,Gentry,AR,"Gentry, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+P19514,Tyson Foods,Robards,KY,"Robards, KY",90,Young Chicken Carcasses,2,2026091,2026-09-01
+P19688+V19688,Sanderson Farms,Bryan,TX,"Bryan, TX",40,Young Chicken Carcasses,2,2026091,2026-09-01
+P1978,Greener Pastures Chicken,Elgin,TX,"Elgin, TX",40,Young Chicken Carcasses,3,2026091,2026-09-01
+P19865+V19865,House of Raeford Farms of LA,Arcadia,LA,"Arcadia, LA",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P20245,Keystone Foods,Albany,KY,"Albany, KY",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P20251,Tecumseh Poultry,Tecumseh,NE,"Tecumseh, NE",15,Young Chicken Carcasses,2,2026091,2026-09-01
+P206+V206,Pilgrim's Pride Corporation,Nacogdoches,TX,"Nacogdoches, TX",40,Young Chicken Carcasses,2,2026091,2026-09-01
+P208+V208,George's Processing,Springdale,AR,"Springdale, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+P211,Palmetto Pigeon Plant,Sumter,SC,"Sumter, SC",85,Young Chicken Carcasses,3,2026091,2026-09-01
+P21234,Perdue Foods,Perry,GA,"Perry, GA",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P2178,PERDUE FOODS,Georgetown,DE,"Georgetown, DE",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P218,Pilgrim's Pride Corporation,Lufkin,TX,"Lufkin, TX",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P2186,GEORGE'S FOODS,HARRISONBURG,VA,"HARRISONBURG, VA",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P2372,DRR Processing,Burton,TX,"Burton, TX",40,Young Chicken Carcasses,3,2026091,2026-09-01
+P243,Tyson Foods,Cumming,GA,"Cumming, GA",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P247,Sanderson Farms  (Processing Div),Hazlehurst,MS,"Hazlehurst, MS",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P2632,Pilgrim's Pride Corporation,Live Oak,FL,"Live Oak, FL",85,Young Chicken Carcasses,2,2026091,2026-09-01
+P2686,Keystone Foods,Camilla,GA,"Camilla, GA",85,Young Chicken Carcasses,2,2026091,2026-09-01
+P2882,Perdue Foods,Petaluma,CA,"Petaluma, CA",05,Young Chicken Carcasses,1,2026091,2026-09-01
+P2894,House of Raeford Vienna,Vienna,GA,"Vienna, GA",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P308,Koch Foods of Mississippi,Morton,MS,"Morton, MS",90,Young Chicken Carcasses,3,2026091,2026-09-01
+P32,Mar-Jac Poultry,Gainesville,GA,"Gainesville, GA",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P320,Sanderson Farms,Laurel,MS,"Laurel, MS",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P32143,Otto's Poultry,Middleville,MI,"Middleville, MI",50,Young Chicken Carcasses,3,2026091,2026-09-01
+P32182,Sanderson Farms,Moultrie,GA,"Moultrie, GA",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P325,Tyson Foods,Center,TX,"Center, TX",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P3302,Cluck Ya Poultry,Gardiner,ME,"Gardiner, ME",60,Young Chicken Carcasses,3,2026091,2026-09-01
+P33900+V33900,Case Farms Processing,Farmerville,LA,"Farmerville, LA",40,Young Chicken Carcasses,2,2026091,2026-09-01
+P341,Golden Rod Broilers,Cullman,AL,"Cullman, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P34308,Sanderson Farms,Waco,TX,"Waco, TX",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P39,Pine Manor,Orland,IN,"Orland, IN",50,Young Chicken Carcasses,2,2026091,2026-09-01
+P39915+V39915,LOCUST POINT FARMS,ELKTON,MD,"ELKTON, MD",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P40,Pilgrim's Pride Corporation,Ellijay,GA,"Ellijay, GA",85,Young Chicken Carcasses,2,2026091,2026-09-01
+P40183,Sanderson Farms,Kinston,NC,"Kinston, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P40345,Misty Lea Farm Poultry Processing,Pembroke,KY,"Pembroke, KY",90,Young Chicken Carcasses,3,2026091,2026-09-01
+P419,Case Farms Processing,Morganton,NC,"Morganton, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P445,Wayne Farms,Dobson,NC,"Dobson, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P44826,Case Farms Processing,Canton,OH,"Canton, OH",50,Young Chicken Carcasses,1,2026091,2026-09-01
+P44974+V44974,Goffle Road Poultry Farm,Wyckoff,NJ,"Wyckoff, NJ",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P44992,Windy Meadows Family Farm,Campbell,TX,"Campbell, TX",40,Young Chicken Carcasses,3,2026091,2026-09-01
+P45483,Peco Foods,Pocahontas,AR,"Pocahontas, AR",35,Young Chicken Carcasses,2,2026091,2026-09-01
+P45819,King and Sons Poultry Service,Bradford,OH,"Bradford, OH",50,Young Chicken Carcasses,1,2026091,2026-09-01
+P45910,Sanderson Farms,St Pauls,NC,"St Pauls, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P46091,Ozark Mountain Poultry,Batesville,AR,"Batesville, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+P46213,Burgundy Pasture Poultry,Hillsboro,TX,"Hillsboro, TX",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P46248A,Wabash Poultry Processing,Forrest,IL,"Forrest, IL",50,Young Chicken Carcasses,3,2026091,2026-09-01
+P46374,Sanderson Farms Processing  Tyler Processing Division,Tyler,TX,"Tyler, TX",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P468,Peco Foods,Batesville,AR,"Batesville, AR",35,Young Chicken Carcasses,2,2026091,2026-09-01
+P46826,SHENANDOAH VALLEY ORGANIC,Harrisonburg,VA,"Harrisonburg, VA",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P46897,IHSAN FARMS IIC,PRINCESS ANNE,MD,"PRINCESS ANNE, MD",80,Young Chicken Carcasses,3,2026091,2026-09-01
+P47016,Amick Farms,Ward,SC,"Ward, SC",85,Young Chicken Carcasses,2,2026091,2026-09-01
+P47254,Shining Comb Poultry,Romulus,NY,"Romulus, NY",60,Young Chicken Carcasses,3,2026091,2026-09-01
+P476,Pilgrim's Pride Corporation,Carrollton,GA,"Carrollton, GA",85,Young Chicken Carcasses,2,2026091,2026-09-01
+P481,Tyson Foods,Springdale,AR,"Springdale, AR",35,Young Chicken Carcasses,3,2026091,2026-09-01
+P48304,Loln Premium Poultry,Fremont,NE,"Fremont, NE",15,Young Chicken Carcasses,2,2026091,2026-09-01
+P48466,Al-Kawthar Poultry,Stevens,PA,"Stevens, PA",60,Young Chicken Carcasses,3,2026091,2026-09-01
+P509,Koch Foods,Morristown,TN,"Morristown, TN",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P510,House Of Raeford Farms,Rose Hill,NC,"Rose Hill, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P51179+V51179,Sanderson Farms,Palestine,TX,"Palestine, TX",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P517,Mar-Jac Poultry-MS,Hattiesburg,MS,"Hattiesburg, MS",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P519,Amick Farms,Laurel,MS,"Laurel, MS",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P522,Sanderson Farms  (Processing Div),Collins,MS,"Collins, MS",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P529+V529,Pilgrim's Pride Corporation,Arcadia,WI,"Arcadia, WI",25,Young Chicken Carcasses,1,2026091,2026-09-01
+P533,Free Bird Chicken,Fredericksburg,PA,"Fredericksburg, PA",60,Young Chicken Carcasses,1,2026091,2026-09-01
+P548,JCG  Foods of Alabama,Collinsville,AL,"Collinsville, AL",90,Young Chicken Carcasses,2,2026091,2026-09-01
+P559,Tyson Foods,Albertville,AL,"Albertville, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P5787,Pilgrim's Pride Corporation,Natchitoches,LA,"Natchitoches, LA",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P6058,Perdue Foods,Mount Vernon,WA,"Mount Vernon, WA",15,Young Chicken Carcasses,3,2026091,2026-09-01
+P6137A,Foster Poultry Farms,Fresno,CA,"Fresno, CA",05,Young Chicken Carcasses,2,2026091,2026-09-01
+P6164A,Foster Poultry Farms,Kelso,WA,"Kelso, WA",15,Young Chicken Carcasses,1,2026091,2026-09-01
+P622,Tyson Foods,Monroe,NC,"Monroe, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P646,JCG Foods of Georgia,Pine Mt Valley,GA,"Pine Mt Valley, GA",85,Young Chicken Carcasses,2,2026091,2026-09-01
+P6504,Peco Foods,Tuscaloosa,AL,"Tuscaloosa, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P6505,Norman W Fries,Claxton,GA,"Claxton, GA",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P6510,Peco Foods,Bay Springs,MS,"Bay Springs, MS",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P6519B,Coastal Processing,Louisville,GA,"Louisville, GA",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P6529,Koch Foods of  Montgomery AL,Montgomery,AL,"Montgomery, AL",90,Young Chicken Carcasses,2,2026091,2026-09-01
+P6616+V6616,Peco Foods,Sebastopol,MS,"Sebastopol, MS",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P6638,Pilgrim's Pride Corporation,Enterprise,AL,"Enterprise, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P6651,Tyson Foods,Shelbyville,TN,"Shelbyville, TN",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P6666,Koch Foods of Gadsden,Gadsden,AL,"Gadsden, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P687,House of Raeford,West Columbia,SC,"West Columbia, SC",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P7044,Tyson Foods,Carthage,TX,"Carthage, TX",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P705,Pilgrim's Pride Corporation,De Queen,AR,"De Queen, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+P7085+V7085,Tyson Foods,Broken Bow,OK,"Broken Bow, OK",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P7091,Pilgrim's Pride Corporation,Mount Pleasant,TX,"Mount Pleasant, TX",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P7101,Tyson Foods,Clarksville,AR,"Clarksville, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+P7156+V7156,Tyson Foods,Hope,AR,"Hope, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+P72,Tyson Foods,Dardanelle,AR,"Dardanelle, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+P7264+V7264,Sanderson Farms,Hammond,LA,"Hammond, LA",40,Young Chicken Carcasses,1,2026091,2026-09-01
+P727+V727,Simmons Prepared Foods,South West City,MO,"Southwest City, MO",35,Young Chicken Carcasses,1,2026091,2026-09-01
+P7342+V7342,Wayne Farms,Dothan,AL,"Dothan, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P7374,To-Ricos Ltd,Aibonito,PR,"Aibonito, PR",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P7485+V7485,Wayne Farms,Jack,AL,"Jack, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P7487,Koch Foods,Chattanooga,TN,"Chattanooga, TN",90,Young Chicken Carcasses,2,2026091,2026-09-01
+P758,Tyson Foods,Carthage,MS,"Carthage, MS",90,Young Chicken Carcasses,2,2026091,2026-09-01
+P7632,Foster Poultry Farms,Fresno,CA,"Fresno, CA",05,Young Chicken Carcasses,1,2026091,2026-09-01
+P764,Perdue Foods,Salisbury,MD,"Salisbury, MD",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P768+V768,Tyson Foods,Waldron,AR,"Waldron, AR",35,Young Chicken Carcasses,1,2026091,2026-09-01
+P7903,Perdue Foods,Accomac,VA,"Accomac, VA",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P7927,AMICK FARMS,HURLOCK,MD,"HURLOCK, MD",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P7987,Amick Farms,Batesburg,SC,"Batesburg, SC",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P806,Tyson Foods,Temperanceville,VA,"Temperanceville, VA",80,Young Chicken Carcasses,2,2026091,2026-09-01
+P8107+V8107,Squab Producers Of California,Modesto,CA,"Modesto, CA",05,Young Chicken Carcasses,3,2026091,2026-09-01
+P843,Pilgrim's Pride Corporation,Marshville,NC,"Marshville, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P855,Pilgrim's Pride Corporation,Athens,GA,"Athens, GA",85,Young Chicken Carcasses,2,2026091,2026-09-01
+P890,Peco Foods,Canton,MS,"Canton, MS",90,Young Chicken Carcasses,2,2026091,2026-09-01
+P910,Harrison Poultry,Bethlehem,GA,"Bethlehem, GA",85,Young Chicken Carcasses,1,2026091,2026-09-01
+P912,Wayne Farms,Union Springs,AL,"Union Springs, AL",90,Young Chicken Carcasses,1,2026091,2026-09-01
+P9197,Perdue Foods,Lewiston Woodville,NC,"Lewiston Woodville, NC",80,Young Chicken Carcasses,1,2026091,2026-09-01
+P935,Allen Harim,Harbeson,DE,"Harbeson, DE",80,Young Chicken Carcasses,2,2026091,2026-09-01
+P9378+V9378,Baffoni's Poultry Farm,Johnston,RI,"Johnston, RI",60,Young Chicken Carcasses,3,2026091,2026-09-01
+M10+P7212+V10,Buckhead Meat & Seafood of Houston,Houston,TX,"Houston, TX",40,Chicken Parts,3,2026091,2026-09-01
+M1015+P1015+V1015,Empire Kosher Poultry,Mifflintown,PA,"Mifflintown, PA",60,Chicken Parts,1,2026091,2026-09-01
+M10835+P10835+V10835,Sudlersville Frozen Meat Locker,SUDLERSVILLE,MD,"SUDLERSVILLE, MD",80,Chicken Parts,1,2026091,2026-09-01
+M1097+P8891,Demakes Enterprises,Lynn,MA,"Lynn, MA",60,Chicken Parts,2,2026091,2026-09-01
+M11078+P11078,Burris Logistics,Los Angeles,CA,"Los Angeles, CA",05,Chicken Parts,1,2026091,2026-09-01
+M112+P112,Tyson Foods,Green Forest,AR,"Green Forest, AR",35,Chicken Parts,1,2026091,2026-09-01
+M11509+P11509,Bachoco OK Foods,Albertville,AL,"Albertville, AL",90,Chicken Parts,2,2026091,2026-09-01
+M1160+P9207,Rocker Bros Meat & Provision,Inglewood,CA,"Inglewood, CA",05,Chicken Parts,1,2026091,2026-09-01
+M1234+P1234,Mountaire Farms,Siler City,NC,"Siler City, NC",80,Chicken Parts,1,2026091,2026-09-01
+M12650+P12650,Fieldale Farms Corporation,Gainesville,GA,"Gainesville, GA",85,Chicken Parts,1,2026091,2026-09-01
+M1305+P1305+V1305,Holly Poultry,Baltimore,MD,"Baltimore, MD",80,Chicken Parts,3,2026091,2026-09-01
+M13127+P13127,Ditta Meat Company,Pasadena,TX,"Pasadena, TX",40,Chicken Parts,3,2026091,2026-09-01
+M13170+P13170+V13170,Oklahoma City Meat Company,Oklahoma City,OK,"Oklahoma City, OK",40,Chicken Parts,1,2026091,2026-09-01
+M13432A+P13432A+V13432A,Martin Foods LP,Houston,TX,"Houston, TX",40,Chicken Parts,3,2026091,2026-09-01
+M13456+P13456+V13456,Tyson Foods,Pine Bluff,AR,"Pine Bluff, AR",35,Chicken Parts,1,2026091,2026-09-01
+M13530+P13530,Tian Tian Food Service,Houston,TX,"Houston, TX",40,Chicken Parts,1,2026091,2026-09-01
+M13556+P13556,Tyson Foods,Sedalia,MO,"Sedalia, MO",35,Chicken Parts,1,2026091,2026-09-01
+M13564+P13564,Rath,Apache,OK,"Apache, OK",40,Chicken Parts,1,2026091,2026-09-01
+M13590+P13590,Southwest Processor,Stafford,TX,"Stafford, TX",40,Chicken Parts,1,2026091,2026-09-01
+M1383+P677,Praters Foods,Lubbock,TX,"Lubbock, TX",40,Chicken Parts,1,2026091,2026-09-01
+M1393+P836,Les Chateaux DeFrance,Inwood,NY,"Inwood, NY",60,Chicken Parts,1,2026091,2026-09-01
+M15735+P15735+V15735,FULTON MARKET,Chicago,IL,"Chicago, IL",50,Chicken Parts,2,2026091,2026-09-01
+M15805+P15805+V15805,J&B Wholesale Distributing,St Michael,MN,"St Michael, MN",25,Chicken Parts,2,2026091,2026-09-01
+M1645+P1645,Nathan & Sons,South El Monte,CA,"South El Monte, CA",05,Chicken Parts,1,2026091,2026-09-01
+M1655+P1655+V1655,Rashbe Holdings,Birdsboro,PA,"Birdsboro, PA",60,Chicken Parts,2,2026091,2026-09-01
+M1698+P787+V1698,Schreiber Processing Corporation,Maspeth,NY,"Maspeth, NY",60,Chicken Parts,2,2026091,2026-09-01
+M17217A+P6403A+V17217A,Plymouth Poultry Co,Auburn,WA,"Auburn, WA",15,Chicken Parts,2,2026091,2026-09-01
+M17250+P6+V6,Tyson Foods,Blountsville,AL,"Blountsville, AL",90,Chicken Parts,1,2026091,2026-09-01
+M17335+P17335,Intra Coastal Packing,Lake Worth,FL,"Lake Worth, FL",85,Chicken Parts,1,2026091,2026-09-01
+M17557+P17557,JPI Wholesalers,Hannibal,MO,"Hannibal, MO",35,Chicken Parts,1,2026091,2026-09-01
+M1759+P1759,Fortune Wisconsin,Green Bay,WI,"Green Bay, WI",25,Chicken Parts,3,2026091,2026-09-01
+M1776+P1776,San Lorenzo Foods,Pomona,CA,"Pomona, CA",05,Chicken Parts,1,2026091,2026-09-01
+M1791+P27353,Best Chicago Meat Company,Chicago,IL,"Chicago, IL",50,Chicken Parts,3,2026091,2026-09-01
+M17980+P17980,Pilgrim's Pride Corporation,Sumter,SC,"Sumter, SC",85,Chicken Parts,1,2026091,2026-09-01
+M18022+P18022,Peter's Wholesale Meat Corporation,Springfield Gardens,NY,"Springfield Gardens, NY",60,Chicken Parts,1,2026091,2026-09-01
+M18416+P18416+V18416,New York Food Service,Bronx,NY,"Bronx, NY",60,Chicken Parts,1,2026091,2026-09-01
+M18554+P18554,JCG Industries,Chicago,IL,"Chicago, IL",50,Chicken Parts,1,2026091,2026-09-01
+M18554A+P18554A,JCG Industries,Franklin Park,IL,"Franklin Park, IL",50,Chicken Parts,1,2026091,2026-09-01
+M18578+P18578,Kellys Foods,Winter Garden,FL,"Winter Garden, FL",85,Chicken Parts,1,2026091,2026-09-01
+M18596+P18596,K&L Ranch,Paterson,NJ,"Paterson, NJ",80,Chicken Parts,1,2026091,2026-09-01
+M18600+P18600,Greco and Sons,Bartlett,IL,"Bartlett, IL",50,Chicken Parts,2,2026091,2026-09-01
+M18667+P18667,Ellsworth Foods,Tifton,GA,"Tifton, GA",85,Chicken Parts,1,2026091,2026-09-01
+M18678+P18678+V18678,Fells Point,Baltimore,MD,"Baltimore, MD",80,Chicken Parts,1,2026091,2026-09-01
+M18743+P18743,Olympia Food Industries,Franklin Park,IL,"Franklin Park, IL",50,Chicken Parts,1,2026091,2026-09-01
+M1887+P1887,Marcel's Portion Pak,Opa-Locka,FL,"Opa-Locka, FL",85,Chicken Parts,1,2026091,2026-09-01
+M18888+P18888,Brighton Packing,Chicago,IL,"Chicago, IL",50,Chicken Parts,1,2026091,2026-09-01
+M18895+P18895,US Foods,Hawthorne,CA,"Hawthorne, CA",05,Chicken Parts,1,2026091,2026-09-01
+M18987+P18987,JRG Meat Processing Plant,Aibonito,PR,"Aibonito, PR",85,Chicken Parts,1,2026091,2026-09-01
+M18994+P18994,The 29ers Provisions,Los Angeles,CA,"Los Angeles, CA",05,Chicken Parts,1,2026091,2026-09-01
+M1913A+P18075A+V1913A,Three Sons Processing-Texas,DFW Airport,TX,"DFW Airport, TX",40,Chicken Parts,1,2026091,2026-09-01
+M19194+P19194,US Foods,Phoenix,AZ,"Phoenix, AZ",05,Chicken Parts,1,2026091,2026-09-01
+M19433+P19433,Ambassador Meat Distributor,Kansas City,MO,"Kansas City, MO",35,Chicken Parts,1,2026091,2026-09-01
+M1947A+P1947A,Halperns' Steak and Seafood Company,Kalamazoo,MI,"Kalamazoo, MI",50,Chicken Parts,3,2026091,2026-09-01
+M19545A+P19545A,Integrity Foods,Athens,GA,"Athens, GA",85,Chicken Parts,1,2026091,2026-09-01
+M19636+P19636,Tyson Foods,Union City,TN,"Union City, TN",90,Chicken Parts,1,2026091,2026-09-01
+M19652+P19652,Swift Beef Company,Greeley,CO,"Greeley, CO",15,Chicken Parts,1,2026091,2026-09-01
+M19719+P19719,Twin Rivers Foods,Fort Smith,AR,"Fort Smith, AR",35,Chicken Parts,1,2026091,2026-09-01
+M19719E+P19719E,Twin Rivers Foods,Ft. Smith,AR,"Ft. Smith, AR",35,Chicken Parts,1,2026091,2026-09-01
+M19782+P19782,E Excel Food,Anaheim,CA,"Anaheim, CA",05,Chicken Parts,1,2026091,2026-09-01
+M19879+P19879+V19879,Golden Valley Industries,Modesto,CA,"Modesto, CA",05,Chicken Parts,1,2026091,2026-09-01
+M19916+P8117+V19916,Salt Lake Fine Foods,Salt Lake City,UT,"Salt Lake City, UT",15,Chicken Parts,1,2026091,2026-09-01
+M19953+P19953,Go Go Sales,Los Angeles,CA,"Los Angeles, CA",05,Chicken Parts,1,2026091,2026-09-01
+M19999+P19999,AU LAU and Associates,Pompano Beach,FL,"Pompano Beach, FL",85,Chicken Parts,1,2026091,2026-09-01
+M20088+P20088+V20088,Brakebush Irving,Irving,TX,"Irving, TX",40,Chicken Parts,1,2026091,2026-09-01
+M20106+P20106,Dallas USA Foods,Dallas,TX,"Dallas, TX",40,Chicken Parts,1,2026091,2026-09-01
+M20153+P20153,Rice Field Corporation,City of Industry,CA,"City of Industry, CA",05,Chicken Parts,1,2026091,2026-09-01
+M20251W+P20251W,Tecumseh Poultry,Waverly,NE,"Waverly, NE",15,Chicken Parts,1,2026091,2026-09-01
+M20322+P20322,Keystone Foods,Bakerhill,AL,"Bakerhill, AL",90,Chicken Parts,1,2026091,2026-09-01
+M20401+P20401,Prime Foods,Hyattsville,MD,"Hyattsville, MD",80,Chicken Parts,1,2026091,2026-09-01
+M20815+P20815,Buckhead Meat & Seafood Mid-Atlantic,Landover,MD,"Landover, MD",80,Chicken Parts,3,2026091,2026-09-01
+M20887+P20887,Crescent Foods,Chicago,IL,"Chicago, IL",50,Chicken Parts,3,2026091,2026-09-01
+M20889+P20889,Crown I Foods,Bay Shore,NY,"Bay Shore, NY",60,Chicken Parts,1,2026091,2026-09-01
+M2095+P2095,Nealey's Foods,Chicago,IL,"Chicago, IL",50,Chicken Parts,1,2026091,2026-09-01
+M20AE+P20AE+V20AE,Lopez Foods,Oklahoma City,OK,"Oklahoma City, OK",40,Chicken Parts,1,2026091,2026-09-01
+M21103+P21103,US Foods,Birmingham,AL,"Birmingham, AL",90,Chicken Parts,1,2026091,2026-09-01
+M21200+P21200,VF America,Statham,GA,"Statham, GA",85,Chicken Parts,3,2026091,2026-09-01
+M21254+P21254,William & Co,Boston,MA,"Boston, MA",60,Chicken Parts,1,2026091,2026-09-01
+M21275+P21275,D&D Foods,Omaha,NE,"Omaha, NE",15,Chicken Parts,1,2026091,2026-09-01
+M21342+P21342,Wan Rong Trading Corp DBA Taihe Trading Corp,Long Island City,NY,"Long Island City, NY",60,Chicken Parts,1,2026091,2026-09-01
+M21430+P21430,Bert Posess,Paterson,NJ,"Paterson, NJ",80,Chicken Parts,1,2026091,2026-09-01
+M21494+P21494,CCP Poultry & Meat Corp,Vernon,CA,"Vernon, CA",05,Chicken Parts,1,2026091,2026-09-01
+M21498+P21498,Ozark Mountain Poultry,Rogers,AR,"Rogers, AR",35,Chicken Parts,1,2026091,2026-09-01
+M2161+P3,Mountaire Farms,Millsboro,DE,"Millsboro, DE",80,Chicken Parts,1,2026091,2026-09-01
+M2179+P2179,CHICAGO BUTCHER SHOPS,LAKE FOREST,IL,"LAKE FOREST, IL",50,Chicken Parts,3,2026091,2026-09-01
+M21838+P21838,Bachoco OK Foods,Albertville,AL,"Albertville, AL",90,Chicken Parts,3,2026091,2026-09-01
+M21863A+P21863A,Rio Grande Pak Foods,McAllen,TX,"McAllen, TX",40,Chicken Parts,1,2026091,2026-09-01
+M21874+P21874,Rosemead Processing Meats,South El Monte,CA,"South El Monte, CA",05,Chicken Parts,1,2026091,2026-09-01
+M2213A+P2213A,Buckhead Meat of San Antonio,San Antonio,TX,"San Antonio, TX",40,Chicken Parts,1,2026091,2026-09-01
+M2327+P2327,Iowa Pacific Processors,Des Moines,IA,"Des Moines, IA",25,Chicken Parts,1,2026091,2026-09-01
+M2338+P2338,Keith Valley Packing Company,Dallas,TX,"Dallas, TX",40,Chicken Parts,1,2026091,2026-09-01
+M244S+P244S,Tyson Fresh Meats,Sherman,TX,"Sherman, TX",40,Chicken Parts,1,2026091,2026-09-01
+M2510+P2510+V2510,Best Choice Meats,Alsip,IL,"Alsip, IL",50,Chicken Parts,1,2026091,2026-09-01
+M2514+P18395,Four Star Foods,Chicago,IL,"Chicago, IL",50,Chicken Parts,1,2026091,2026-09-01
+M2540+P2540,KBDetroit,Detroit,MI,"Detroit, MI",50,Chicken Parts,1,2026091,2026-09-01
+M2629+P2629+V2629,Hobson Foods Service,Nashville,TN,"Nashville, TN",90,Chicken Parts,1,2026091,2026-09-01
+M2676+P2676,Southeast Poultry,Rogers,AR,"Rogers, AR",35,Chicken Parts,2,2026091,2026-09-01
+M2696+P2696,Cuatro Co Manufacturing,Houston,TX,"Houston, TX",40,Chicken Parts,1,2026091,2026-09-01
+M272+P272,T F Kinnealey Co,Brockton,MA,"Brockton, MA",60,Chicken Parts,3,2026091,2026-09-01
+M27216+P27216,Great American Trucking- Select Foods,Delray Beach,FL,"Delray Beach, FL",85,Chicken Parts,1,2026091,2026-09-01
+M27389+P27389+V27389,Pitman Farms,Sanger,CA,"Sanger, CA",05,Chicken Parts,2,2026091,2026-09-01
+M27505+P27505,Gold Creek Processing,Dawsonville,GA,"Dawsonville, GA",85,Chicken Parts,1,2026091,2026-09-01
+M2802+P2802,Magong Food,Monterey Park,CA,"Monterey Park, CA",05,Chicken Parts,2,2026091,2026-09-01
+M2874+P2874,Allen Brothers,Richmond,CA,"Richmond, CA",05,Chicken Parts,1,2026091,2026-09-01
+M2902+P2902,Cougle Commission Company,Chicago,IL,"Chicago, IL",50,Chicken Parts,2,2026091,2026-09-01
+M3026+P3026,D & S Meats,Mokena,IL,"Mokena, IL",50,Chicken Parts,2,2026091,2026-09-01
+M30775+P30775,Rose Meat Services,Vernon,CA,"Vernon, CA",05,Chicken Parts,1,2026091,2026-09-01
+M31639+P31639,Mountain Meadow Productions,Los Angeles,CA,"Los Angeles, CA",05,Chicken Parts,1,2026091,2026-09-01
+M3165+P3165,Red Rock Foods,Braselton,GA,"Braselton, GA",85,Chicken Parts,1,2026091,2026-09-01
+M31727+P31727+V31727A,Kiryas Joel Poultry Processing Plant,Monroe,NY,"Monroe, NY",60,Chicken Parts,1,2026091,2026-09-01
+M31877+P31877,Twin Rivers Foods,Atkins,AR,"Atkins, AR",35,Chicken Parts,1,2026091,2026-09-01
+M31932+P31932,Certified Meat Products,Fresno,CA,"Fresno, CA",05,Chicken Parts,1,2026091,2026-09-01
+M31979+P31979,Gold Creek Processing,Gainesville,GA,"Gainesville, GA",85,Chicken Parts,1,2026091,2026-09-01
+M322A+P322,Pilgrim's Pride Corporation,Cold Spring,MN,"Cold Spring, MN",25,Chicken Parts,1,2026091,2026-09-01
+M33861+P33861,Standard Meat Company,Saginaw,TX,"Saginaw, TX",40,Chicken Parts,1,2026091,2026-09-01
+M33885+P31851,Chee Foo International,Phoenix,AZ,"Phoenix, AZ",05,Chicken Parts,1,2026091,2026-09-01
+M33901+P33901,Case Farms Processing,Farmerville,LA,"Farmerville, LA",40,Chicken Parts,2,2026091,2026-09-01
+M33982+P33982,JBB Trading,Houston,TX,"Houston, TX",40,Chicken Parts,3,2026091,2026-09-01
+M34009+P34009,Washington Lamb,Lorton,VA,"Lorton, VA",80,Chicken Parts,1,2026091,2026-09-01
+M34078+P34078,Great Lakes Poultry,La Porte,IN,"La Porte, IN",50,Chicken Parts,2,2026091,2026-09-01
+M34095+P34095+V34095,A1 Meat Solutions,El Monte,CA,"El Monte, CA",05,Chicken Parts,2,2026091,2026-09-01
+M34145+P34145,Kadejan,Glenwood,MN,"Glenwood, MN",25,Chicken Parts,1,2026091,2026-09-01
+M34167+P34167,Dakota Packing,Las Vegas,NV,"Las Vegas, NV",05,Chicken Parts,2,2026091,2026-09-01
+M34176+P34176,Swift Beef Company,Lenoir,NC,"Lenoir, NC",80,Chicken Parts,1,2026091,2026-09-01
+M34195+P34195,Gourmet Specialty Foods,North Andover,MA,"North Andover, MA",60,Chicken Parts,1,2026091,2026-09-01
+M34227+P34227,SDJ TRADING,Irvington,NJ,"Irvington, NJ",80,Chicken Parts,1,2026091,2026-09-01
+M34371+P34371,Union Foods,Rocky Mount,NC,"Rocky Mount, NC",80,Chicken Parts,3,2026091,2026-09-01
+M34467+P34467+V34467,Shamrock Food Company,Commerce City,CO,"Commerce City, CO",15,Chicken Parts,2,2026091,2026-09-01
+M34715+P34715,Patterson TMP Operating,Fort Worth,TX,"Fort Worth, TX",40,Chicken Parts,2,2026091,2026-09-01
+M3603+P3603,Amazing Taste Foods,North Little Rock,AR,"North Little Rock, AR",35,Chicken Parts,1,2026091,2026-09-01
+M38463+P38463,La Indi Poultry,City of Industry,CA,"City of Industry, CA",05,Chicken Parts,1,2026091,2026-09-01
+M38494+P32145+V32145,Emmaus Foods,Albertville,AL,"Albertville, AL",90,Chicken Parts,1,2026091,2026-09-01
+M38511+P38511+V38511,New SBL,Chicago,IL,"Chicago, IL",50,Chicken Parts,1,2026091,2026-09-01
+M38514+P38514,C & S Poultry,Monterey Park,CA,"Monterey Park, CA",05,Chicken Parts,1,2026091,2026-09-01
+M38522+P38522,Metropolitan Foods,Wayne,NJ,"Wayne, NJ",80,Chicken Parts,1,2026091,2026-09-01
+M39891+P39891,Biloxi Beach Group  #1,Morton,MS,"Morton, MS",90,Chicken Parts,3,2026091,2026-09-01
+M39941+P39941,Casanova Market,Hauppauge,NY,"Hauppauge, NY",60,Chicken Parts,1,2026091,2026-09-01
+M40059+P40059,Legendary Meats,Marietta,GA,"Marietta, GA",85,Chicken Parts,1,2026091,2026-09-01
+M40311+P40311,Mecca Halal Poultry,Astoria,NY,"Astoria, NY",60,Chicken Parts,1,2026091,2026-09-01
+M40367+P40367,Shuler Meats,Thomasville,NC,"Thomasville, NC",80,Chicken Parts,1,2026091,2026-09-01
+M4104+P4104,Palisades Ranch,Vernon,CA,"Vernon, CA",05,Chicken Parts,1,2026091,2026-09-01
+M4121A+P4121A+V4121A,Custom Made Meals,Denver,CO,"Denver, CO",15,Chicken Parts,1,2026091,2026-09-01
+M4150+P4150,Tommy's Quality Meats,San Diego,CA,"San Diego, CA",05,Chicken Parts,1,2026091,2026-09-01
+M4159+P4159,HV Randall Foods,Vernon,CA,"Vernon, CA",05,Chicken Parts,1,2026091,2026-09-01
+M4177+P4177+I4177,Leyen Food,La Puente,CA,"La Puente, CA",05,Chicken Parts,2,2026091,2026-09-01
+M4181+P4181,Mao Foods,Los Angeles,CA,"Los Angeles, CA",05,Chicken Parts,1,2026091,2026-09-01
+M4187+P4187+V4187,Wayne Provisions Company,Vernon,CA,"Vernon, CA",05,Chicken Parts,1,2026091,2026-09-01
+M426+P17065,King Meat Service,Vernon,CA,"Vernon, CA",05,Chicken Parts,1,2026091,2026-09-01
+M4398+P4398,DiLuigi Foods,Danvers,MA,"Danvers, MA",60,Chicken Parts,2,2026091,2026-09-01
+M44121+P44121,Pelleh Poultry Corp,Swan Lake,NY,"Swan Lake, NY",60,Chicken Parts,2,2026091,2026-09-01
+M44127+P44127,Adesa International,Ontario,CA,"Ontario, CA",05,Chicken Parts,3,2026091,2026-09-01
+M443+P443+V443,Glenn Valley Foods,Omaha,NE,"Omaha, NE",15,Chicken Parts,1,2026091,2026-09-01
+M4460+P4460+V4460,Great American Foods,Newark,NJ,"Newark, NJ",80,Chicken Parts,1,2026091,2026-09-01
+M44946+P44946,Romeo Foods,Brooklyn,NY,"Brooklyn, NY",60,Chicken Parts,1,2026091,2026-09-01
+M44976+P44976,Empacadora y Procesadora del Sur,Coamo,PR,"Coamo, PR",85,Chicken Parts,3,2026091,2026-09-01
+M45056+P45056,L&G Food,El Monte,CA,"El Monte, CA",05,Chicken Parts,1,2026091,2026-09-01
+M45080+P45080,Bas Foods,Hayward,CA,"Hayward, CA",05,Chicken Parts,1,2026091,2026-09-01
+M45179+P45179,Roger's Poultry,Los Angeles,CA,"Los Angeles, CA",05,Chicken Parts,1,2026091,2026-09-01
+M451B+P451B,Sterling Foods,Opa Locka,FL,"Opa Locka, FL",85,Chicken Parts,1,2026091,2026-09-01
+M45243+P45243,Mama La's Kitchen,Houston,TX,"Houston, TX",40,Chicken Parts,1,2026091,2026-09-01
+M45288B+P45288B,FW Farms,Fort Worth,TX,"Fort Worth, TX",40,Chicken Parts,3,2026091,2026-09-01
+M45345+P45345,Wheatech Food CA,Irwindale,CA,"Irwindale, CA",05,Chicken Parts,3,2026091,2026-09-01
+M45407+P45407,Ameripack Foods,Hughes Springs,TX,"Hughes Springs, TX",40,Chicken Parts,2,2026091,2026-09-01
+M45433+P45433,Halperns' Steak and Gary's Seafood,Orlando,FL,"Orlando, FL",85,Chicken Parts,2,2026091,2026-09-01
+M45457+P45457,Evergreen Poultry,Fort Worth,TX,"Fort Worth, TX",40,Chicken Parts,3,2026091,2026-09-01
+M45484+P45484,Southern Hens,Moselle,MS,"Moselle, MS",90,Chicken Parts,2,2026091,2026-09-01
+M45565+P45565,Farm Fresh Foods,Guntersville,AL,"Guntersville, AL",90,Chicken Parts,1,2026091,2026-09-01
+M45597+P45597,Premier Custom Foods,Kansas City,KS,"Kansas City, KS",35,Chicken Parts,1,2026091,2026-09-01
+M45638+P45638,Trilogy Foods,Gainesville,GA,"Gainesville, GA",85,Chicken Parts,1,2026091,2026-09-01
+M45652+P45652,Shah's Halal Food & Products,Jamaica,NY,"Jamaica, NY",60,Chicken Parts,1,2026091,2026-09-01
+M45690+P45690,Selim's Doner Kebap House LP,Dallas,TX,"Dallas, TX",40,Chicken Parts,1,2026091,2026-09-01
+M45721+P45721,Perfecto Foods,Bell,CA,"Bell, CA",05,Chicken Parts,2,2026091,2026-09-01
+M45769+P45769,Colorado Native Foods,Denver,CO,"Denver, CO",15,Chicken Parts,2,2026091,2026-09-01
+M45855+P45855,Interstate Foods,Compton,CA,"Compton, CA",05,Chicken Parts,1,2026091,2026-09-01
+M45884+P45884,Chef Creations,Forest Park,GA,"Forest Park, GA",85,Chicken Parts,1,2026091,2026-09-01
+M46089+P46089+V46089,Caribbean Crescent,Baltimore,MD,"Baltimore, MD",80,Chicken Parts,1,2026091,2026-09-01
+M46231+P46231,Del Rey Meat & Seafood,Anaheim,CA,"Anaheim, CA",05,Chicken Parts,2,2026091,2026-09-01
+M46255+P46255,Gemstone Ventures dba RCF  or Gemstone Foods,Florence,AL,"Florence, AL",90,Chicken Parts,1,2026091,2026-09-01
+M46324A+P46324A+V46324A,Morning Star Poultry,Fort Plain,NY,"Fort Plain, NY",60,Chicken Parts,1,2026091,2026-09-01
+M4653+P4653,AA Rubashkin & Sons,Brooklyn,NY,"Brooklyn, NY",60,Chicken Parts,3,2026091,2026-09-01
+M4653A+P4653A+V4653A,Agri Star Meat and Poultry,Postville,IA,"Postville, IA",25,Chicken Parts,2,2026091,2026-09-01
+M46689+P46689,Custom Cut Solutions,Albertville,AL,"Albertville, AL",90,Chicken Parts,2,2026091,2026-09-01
+M46835+P46835,Megas Yeeros,Lyndhurst,NJ,"Lyndhurst, NJ",80,Chicken Parts,1,2026091,2026-09-01
+M4692+P4692,Latina Boulevard Foods,Cheektowaga,NY,"Cheektowaga, NY",60,Chicken Parts,3,2026091,2026-09-01
+M47039+P47039,QC Poultry,Montebello,CA,"Montebello, CA",05,Chicken Parts,1,2026091,2026-09-01
+M47082+P47082,Tawa Services,Buena Park,CA,"Buena Park, CA",05,Chicken Parts,2,2026091,2026-09-01
+M47300+P47300,Fairway Market Distribution Center,Bronx,NY,"Bronx, NY",60,Chicken Parts,3,2026091,2026-09-01
+M47307+P47307,Shahs Halal New Horizons Processing,Amityville,NY,"Amityville, NY",60,Chicken Parts,1,2026091,2026-09-01
+M47452+P47452,Glatt Organics,Englewood,NJ,"Englewood, NJ",80,Chicken Parts,1,2026091,2026-09-01
+M47486+P47486,Ranchers Processing,Mendota,CA,"Mendota, CA",05,Chicken Parts,1,2026091,2026-09-01
+M47579+P47579,Tyson Foods,Humboldt,TN,"Humboldt, TN",90,Chicken Parts,3,2026091,2026-09-01
+M47597+P47597,Royalty Meats & Poultry,Rockaway,NJ,"Rockaway, NJ",80,Chicken Parts,1,2026091,2026-09-01
+M47697+P47697,Pure Cut Poultry,Hardeeville,SC,"Hardeeville, SC",85,Chicken Parts,1,2026091,2026-09-01
+M47825+P47825,Mesa Foods,Rancho Cucamonga,CA,"Rancho Cucamonga, CA",05,Chicken Parts,1,2026091,2026-09-01
+M47910+P47910,Meat King,Brooklyn,NY,"Brooklyn, NY",60,Chicken Parts,1,2026091,2026-09-01
+M47937+P47937,US Meat Processing,Astoria,NY,"Astoria, NY",60,Chicken Parts,1,2026091,2026-09-01
+M4800+P4800+V4800,Eddy Packing Co,Yoakum,TX,"Yoakum, TX",40,Chicken Parts,1,2026091,2026-09-01
+M48119+P48119,Custom Craft Poultry,Batesville,AR,"Batesville, AR",35,Chicken Parts,1,2026091,2026-09-01
+M48141+P48141,Halperns' Steak and Seafood Company,Grand Prairie,TX,"Grand Prairie, TX",40,Chicken Parts,1,2026091,2026-09-01
+M48156+P48156,Baily Meat,Las Vegas,NV,"Las Vegas, NV",05,Chicken Parts,1,2026091,2026-09-01
+M48209+P48209,Wholesum Foods,South El Monte,CA,"South El Monte, CA",05,Chicken Parts,3,2026091,2026-09-01
+M48235+P48235+V48235,Crescent Specialty Foods,Farmingdale,NY,"Farmingdale, NY",60,Chicken Parts,3,2026091,2026-09-01
+M48281+P48281+V48281,White Lake Foods,Ferndale,NY,"Ferndale, NY",60,Chicken Parts,1,2026091,2026-09-01
+M48286+P48286,Yassine Halal Food Corp,Astoria,NY,"Astoria, NY",60,Chicken Parts,1,2026091,2026-09-01
+M4847+P4847,Win Fat Food,Monterey Park,CA,"Monterey Park, CA",05,Chicken Parts,1,2026091,2026-09-01
+M4871+P4871,Golden Eagle Services,South Gate,CA,"South Gate, CA",05,Chicken Parts,1,2026091,2026-09-01
+M4873+P4873,Commercial Meat Company,Pico Rivera,CA,"Pico Rivera, CA",05,Chicken Parts,1,2026091,2026-09-01
+M4894+P4894+V4894,Apple Valley Farms,Fresno,CA,"Fresno, CA",05,Chicken Parts,1,2026091,2026-09-01
+M4934+P4934,T & J Sausage Kitchen,Anaheim,CA,"Anaheim, CA",05,Chicken Parts,2,2026091,2026-09-01
+M4985+P4985,Modesto Food Distributors,Hayward,CA,"Hayward, CA",05,Chicken Parts,2,2026091,2026-09-01
+M5097+P5097,Bayside Foods,PROVIDENCE,RI,"PROVIDENCE, RI",60,Chicken Parts,2,2026091,2026-09-01
+M51255+P51255,Natural State Processing,Clinton,AR,"Clinton, AR",35,Chicken Parts,1,2026091,2026-09-01
+M51354+P51354,Select Cut Meat Processing,Chicago,IL,"Chicago, IL",50,Chicken Parts,1,2026091,2026-09-01
+M5142+P5142,Washington Avenue Poultry,Brooklyn,NY,"Brooklyn, NY",60,Chicken Parts,1,2026091,2026-09-01
+M5221+P5221,Home Food Services of PA,Bristol,PA,"Bristol, PA",60,Chicken Parts,1,2026091,2026-09-01
+M5275+P5275,Lupo's Quality Deli,Endicott,NY,"Endicott, NY",60,Chicken Parts,1,2026091,2026-09-01
+M5489+P5489,New Jersey Veal Co,Garfield,NJ,"Garfield, NJ",80,Chicken Parts,1,2026091,2026-09-01
+M550+P18178+V18178,Sterling Pacific Meat Co,Commerce,CA,"Commerce, CA",05,Chicken Parts,1,2026091,2026-09-01
+M56+P56,Pilgrim's Pride Corporation,TIMBERVILLE,VA,"TIMBERVILLE, VA",80,Chicken Parts,1,2026091,2026-09-01
+M5819+P5819+V5819,Gourmet Ranch,Houston,TX,"Houston, TX",40,Chicken Parts,2,2026091,2026-09-01
+M5837+P5837,Simmons Prepared Foods,Van Buren,AR,"Van Buren, AR",35,Chicken Parts,3,2026091,2026-09-01
+M5842+P5842+V5842,Tyson Foods,Springdale,AR,"Springdale, AR",35,Chicken Parts,1,2026091,2026-09-01
+M6010T+P6010T+V6010T,National Steak Processors (2024),Owasso,OK,"Owasso, OK",40,Chicken Parts,1,2026091,2026-09-01
+M6028A+P4114+V6028A,West Coast Prime Meats,Brea,CA,"Brea, CA",05,Chicken Parts,1,2026091,2026-09-01
+M6070+P6070,Los Angeles Poultry,Los Angeles,CA,"Los Angeles, CA",05,Chicken Parts,1,2026091,2026-09-01
+M6075+P6075+V6075,EC Wilson Co,Brier,WA,"Brier, WA",15,Chicken Parts,2,2026091,2026-09-01
+M6090+P6090,Rogers Poultry,Los Angeles,CA,"Los Angeles, CA",05,Chicken Parts,1,2026091,2026-09-01
+M6124+P6124+V6124,Compass Foods,Modesto,CA,"Modesto, CA",05,Chicken Parts,2,2026091,2026-09-01
+M6137+P6137,Foster Poultry Farms,Livingston,CA,"Livingston, CA",05,Chicken Parts,2,2026091,2026-09-01
+M6239+P6239+V6239,Shamrock Foods Company,Phoenix,AZ,"Phoenix, AZ",05,Chicken Parts,1,2026091,2026-09-01
+M6267+P6267,Interbay Food Company,Woodinville,WA,"Woodinville, WA",15,Chicken Parts,1,2026091,2026-09-01
+M6574+P6574,GWB,Fort Lauderdale,FL,"Fort Lauderdale, FL",85,Chicken Parts,1,2026091,2026-09-01
+M6640+P6640,Kabobs Aquisition,Lake City,GA,"Lake City, GA",85,Chicken Parts,1,2026091,2026-09-01
+M6645+P6645,Carolina Fresh Foods,Florence,SC,"Florence, SC",85,Chicken Parts,3,2026091,2026-09-01
+M667+P667,Mountaire Farms,Selbyville,DE,"Selbyville, DE",80,Chicken Parts,1,2026091,2026-09-01
+M6916+P6916+V6916,Amity Packing Co,Chicago,IL,"Chicago, IL",50,Chicken Parts,2,2026091,2026-09-01
+M6934+P6934,Stap,Wheeling,IL,"Wheeling, IL",50,Chicken Parts,2,2026091,2026-09-01
+M7091A+P7091A,Pilgrim's Pride Corporation,Mount Pleasant,TX,"Mount Pleasant, TX",40,Chicken Parts,1,2026091,2026-09-01
+M7100+P7100+V7100,Tyson Foods,Nashville,AR,"Nashville, AR",35,Chicken Parts,1,2026091,2026-09-01
+M7147+P7147+V7147,4G Meat Processing,Kansas City,MO,"Kansas City, MO",35,Chicken Parts,1,2026091,2026-09-01
+M7231+P7231,HEB Meat Plant,San Antonio,TX,"San Antonio, TX",40,Chicken Parts,1,2026091,2026-09-01
+M7271+P7271,C & L Foods,Dallas,TX,"Dallas, TX",40,Chicken Parts,3,2026091,2026-09-01
+M737+P737,House of Raeford - Wallace Div,Teachey,NC,"Teachey, NC",80,Chicken Parts,1,2026091,2026-09-01
+M7428+P7428+V7428,Joyce Foods,Winston Salem,NC,"Winston Salem, NC",80,Chicken Parts,2,2026091,2026-09-01
+M7470+P7470,Mountaire Farms  - NC Division,Lumber Bridge,NC,"Lumber Bridge, NC",80,Chicken Parts,1,2026091,2026-09-01
+M7471+P7471,State Street Poultry & Provisions,Baltimore,MD,"Baltimore, MD",80,Chicken Parts,1,2026091,2026-09-01
+M7478+P1,Tyson Foods,Wilkesboro,NC,"Wilkesboro, NC",80,Chicken Parts,1,2026091,2026-09-01
+M7559+P134+V7559,David Elliot Poultry Farm,Scranton,PA,"Scranton, PA",60,Chicken Parts,3,2026091,2026-09-01
+M7567+P7567,Wegmans Food Markets,Rochester,NY,"Rochester, NY",60,Chicken Parts,1,2026091,2026-09-01
+M7900+P7900,Prestige Farms,Charlotte,NC,"Charlotte, NC",80,Chicken Parts,1,2026091,2026-09-01
+M810+P810,Pilgrim's Pride Corporation,Moorefield,WV,"Moorefield, WV",80,Chicken Parts,1,2026091,2026-09-01
+M8139+P8139,Red Bird Farms Dist Co,Englewood,CO,"Englewood, CO",15,Chicken Parts,1,2026091,2026-09-01
+M8328+P8328,Halperns' Steak and Seafood,Fort Lauderdale,FL,"Fort Lauderdale, FL",85,Chicken Parts,2,2026091,2026-09-01
+M8389+P8389+V8389,Pasqualichio Brothers,Jessup,PA,"Jessup, PA",60,Chicken Parts,1,2026091,2026-09-01
+M8406+P8406+V8406,Mennella'a Poultry,Paterson,NJ,"Paterson, NJ",80,Chicken Parts,1,2026091,2026-09-01
+M8466+P8466,Catelli Brothers,Sutton,MA,"Sutton, MA",60,Chicken Parts,3,2026091,2026-09-01
+M9120+P9120,Homestead Knoxville,Knoxville,TN,"Knoxville, TN",90,Chicken Parts,1,2026091,2026-09-01
+M9141+P9141,Koch Foods of Mississippi,Forest,MS,"Forest, MS",90,Chicken Parts,3,2026091,2026-09-01
+M9211+P9211,T&T Foods,Vernon,CA,"Vernon, CA",05,Chicken Parts,1,2026091,2026-09-01
+M9684+P9684,KFS LFG,Millerton,PA,"Millerton, PA",60,Chicken Parts,1,2026091,2026-09-01
+M9977+P1325,Tyson Foods,New Holland,PA,"New Holland, PA",60,Chicken Parts,1,2026091,2026-09-01
+P1009,Wayne Farms,Danville,AR,"Danville, AR",35,Chicken Parts,1,2026091,2026-09-01
+P1012,Hodie Meats,Alto,GA,"Alto, GA",85,Chicken Parts,1,2026091,2026-09-01
+P1137,Tyson Foods,Seguin,TX,"Seguin, TX",40,Chicken Parts,1,2026091,2026-09-01
+P1235,Wayne Farms,Decatur,AL,"Decatur, AL",90,Chicken Parts,1,2026091,2026-09-01
+P1243,Perdue Foods,Rockingham,NC,"Rockingham, NC",80,Chicken Parts,2,2026091,2026-09-01
+P1249,George's Chicken,Edinburg,VA,"Edinburg, VA",80,Chicken Parts,1,2026091,2026-09-01
+P1250,Fieldale Farms Corporation,Cornelia,GA,"Cornelia, GA",85,Chicken Parts,1,2026091,2026-09-01
+P1257,Fieldale Farms Corporation,Murrayville,GA,"Murrayville, GA",85,Chicken Parts,2,2026091,2026-09-01
+P1272,Pilgrim's Pride Corporation,Douglas,GA,"Douglas, GA",85,Chicken Parts,1,2026091,2026-09-01
+P1284,Pilgrim's Pride Corporation,Canton,GA,"Canton, GA",85,Chicken Parts,1,2026091,2026-09-01
+P1294+V1294,Holmes Foods,Nixon,TX,"Nixon, TX",40,Chicken Parts,1,2026091,2026-09-01
+P1307,Mar-Jac Poultry-AL,Jasper,AL,"Jasper, AL",90,Chicken Parts,1,2026091,2026-09-01
+P1309,House of Raeford Farms,Greenville,SC,"Greenville, SC",85,Chicken Parts,1,2026091,2026-09-01
+P1315,Tyson Foods,Monett,MO,"Monett, MO",35,Chicken Parts,2,2026091,2026-09-01
+P1317+V1317,Wayne Farms,Albertville,AL,"Albertville, AL",90,Chicken Parts,1,2026091,2026-09-01
+P1318,Perdue Foods,Milford,DE,"Milford, DE",80,Chicken Parts,2,2026091,2026-09-01
+P13369+V13369,George's Processing,Cassville,MO,"Cassville, MO",35,Chicken Parts,1,2026091,2026-09-01
+P1353,Pilgrim's Pride Corporation,Chattanooga,TN,"Chattanooga, TN",90,Chicken Parts,1,2026091,2026-09-01
+P13584+V13584,George's Further Processing,Springdale,AR,"Springdale, AR",35,Chicken Parts,1,2026091,2026-09-01
+P1480,Tip Top Poultry,Marietta,GA,"Marietta, GA",85,Chicken Parts,1,2026091,2026-09-01
+P1525,Samuel Holmes,Everett,MA,"Everett, MA",60,Chicken Parts,2,2026091,2026-09-01
+P15724+V15724,Case Farms Processing,Winesburg,OH,"Winesburg, OH",50,Chicken Parts,3,2026091,2026-09-01
+P164,Tyson Foods,Forest,MS,"Forest, MS",90,Chicken Parts,2,2026091,2026-09-01
+P165H,Bachoco OK Foods,Heavener,OK,"Heavener, OK",40,Chicken Parts,1,2026091,2026-09-01
+P165M+V165M,Bachoco OK Foods,Muldrow,OK,"Muldrow, OK",35,Chicken Parts,3,2026091,2026-09-01
+P165S+V165S,Bachoco OK Foods,Fort Smith,AR,"Fort Smith, AR",35,Chicken Parts,2,2026091,2026-09-01
+P170,Wayne Farms,Pendergrass,GA,"Pendergrass, GA",85,Chicken Parts,1,2026091,2026-09-01
+P17336,ROYAL POULTRY,CRANSTON,RI,"CRANSTON, RI",60,Chicken Parts,1,2026091,2026-09-01
+P17340,Pilgrim's Pride Corporation,Hickory,KY,"Hickory, KY",90,Chicken Parts,2,2026091,2026-09-01
+P17500,Pilgrim's Pride Corporation,Russellville,AL,"Russellville, AL",90,Chicken Parts,1,2026091,2026-09-01
+P177,Pilgrim's Pride Corporation,Gainesville,GA,"Gainesville, GA",85,Chicken Parts,1,2026091,2026-09-01
+P18285,Perdue Foods,Dillon,SC,"Dillon, SC",85,Chicken Parts,1,2026091,2026-09-01
+P18414,MB Consultants LTD,South Fallsburg,NY,"South Fallsburg, NY",60,Chicken Parts,1,2026091,2026-09-01
+P18491,EASTERN SHORE POULTRY COMPANY,GEORGETOWN,DE,"GEORGETOWN, DE",80,Chicken Parts,1,2026091,2026-09-01
+P18557,Sanderson Farms,Summit,MS,"Summit, MS",90,Chicken Parts,1,2026091,2026-09-01
+P18978,Misty Knoll Farms,New Haven,VT,"New Haven, VT",60,Chicken Parts,1,2026091,2026-09-01
+P19112,Perdue Foods,Cromwell,KY,"Cromwell, KY",90,Chicken Parts,1,2026091,2026-09-01
+P19128,Case Farms Processing,Dudley,NC,"Dudley, NC",80,Chicken Parts,1,2026091,2026-09-01
+P19150+V19150,La Belle Farm,Ferndale,NY,"Ferndale, NY",60,Chicken Parts,3,2026091,2026-09-01
+P19152+V19152,Koch Foods,Morristown,TN,"Morristown, TN",90,Chicken Parts,2,2026091,2026-09-01
+P192,Pilgrim's Pride Corporation,Guntersville,AL,"Guntersville, AL",90,Chicken Parts,1,2026091,2026-09-01
+P19378,Koch Foods of Cumming,Cumming,GA,"Cumming, GA",85,Chicken Parts,3,2026091,2026-09-01
+P19456A,Rio Star Foods,Dallas,TX,"Dallas, TX",40,Chicken Parts,1,2026091,2026-09-01
+P1949,Simmons Prepared Foods,Gentry,AR,"Gentry, AR",35,Chicken Parts,1,2026091,2026-09-01
+P19514,Tyson Foods,Robards,KY,"Robards, KY",90,Chicken Parts,1,2026091,2026-09-01
+P19688+V19688,Sanderson Farms,Bryan,TX,"Bryan, TX",40,Chicken Parts,1,2026091,2026-09-01
+P1978,Greener Pastures Chicken,Elgin,TX,"Elgin, TX",40,Chicken Parts,2,2026091,2026-09-01
+P19865+V19865,House of Raeford Farms of LA,Arcadia,LA,"Arcadia, LA",40,Chicken Parts,1,2026091,2026-09-01
+P19871,House of Raeford Farms  dba Filet of Chicken,Forest Park,GA,"Forest Park, GA",85,Chicken Parts,2,2026091,2026-09-01
+P20245,Keystone Foods,Albany,KY,"Albany, KY",90,Chicken Parts,1,2026091,2026-09-01
+P20256,Broomes Poultry,Albemarle,NC,"Albemarle, NC",80,Chicken Parts,1,2026091,2026-09-01
+P206+V206,Pilgrim's Pride Corporation,Nacogdoches,TX,"Nacogdoches, TX",40,Chicken Parts,1,2026091,2026-09-01
+P20699A,Alatrade Foods,Boaz,AL,"Boaz, AL",90,Chicken Parts,1,2026091,2026-09-01
+P208+V208,George's Processing,Springdale,AR,"Springdale, AR",35,Chicken Parts,1,2026091,2026-09-01
+P21234,Perdue Foods,Perry,GA,"Perry, GA",85,Chicken Parts,2,2026091,2026-09-01
+P2178,PERDUE FOODS,Georgetown,DE,"Georgetown, DE",80,Chicken Parts,1,2026091,2026-09-01
+P218,Pilgrim's Pride Corporation,Lufkin,TX,"Lufkin, TX",40,Chicken Parts,1,2026091,2026-09-01
+P2186,GEORGE'S FOODS,HARRISONBURG,VA,"HARRISONBURG, VA",80,Chicken Parts,1,2026091,2026-09-01
+P2372,DRR Processing,Burton,TX,"Burton, TX",40,Chicken Parts,1,2026091,2026-09-01
+P243,Tyson Foods,Cumming,GA,"Cumming, GA",85,Chicken Parts,1,2026091,2026-09-01
+P247,Sanderson Farms  (Processing Div),Hazlehurst,MS,"Hazlehurst, MS",90,Chicken Parts,1,2026091,2026-09-01
+P2632,Pilgrim's Pride Corporation,Live Oak,FL,"Live Oak, FL",85,Chicken Parts,2,2026091,2026-09-01
+P2686,Keystone Foods,Camilla,GA,"Camilla, GA",85,Chicken Parts,1,2026091,2026-09-01
+P27+V27,Tyson Foods,Grannis,AR,"Grannis, AR",35,Chicken Parts,1,2026091,2026-09-01
+P2882,Perdue Foods,Petaluma,CA,"Petaluma, CA",05,Chicken Parts,3,2026091,2026-09-01
+P2894,House of Raeford Vienna,Vienna,GA,"Vienna, GA",85,Chicken Parts,1,2026091,2026-09-01
+P308,Koch Foods of Mississippi,Morton,MS,"Morton, MS",90,Chicken Parts,1,2026091,2026-09-01
+P31881+V31881,DG Foods,Hazlehurst,MS,"Hazlehurst, MS",90,Chicken Parts,2,2026091,2026-09-01
+P32,Mar-Jac Poultry,Gainesville,GA,"Gainesville, GA",85,Chicken Parts,1,2026091,2026-09-01
+P320,Sanderson Farms,Laurel,MS,"Laurel, MS",90,Chicken Parts,1,2026091,2026-09-01
+P32143,Otto's Poultry,Middleville,MI,"Middleville, MI",50,Chicken Parts,3,2026091,2026-09-01
+P32174,Alatrade Foods,Albertville,AL,"Albertville, AL",90,Chicken Parts,2,2026091,2026-09-01
+P32182,Sanderson Farms,Moultrie,GA,"Moultrie, GA",85,Chicken Parts,1,2026091,2026-09-01
+P325,Tyson Foods,Center,TX,"Center, TX",40,Chicken Parts,1,2026091,2026-09-01
+P3302,Cluck Ya Poultry,Gardiner,ME,"Gardiner, ME",60,Chicken Parts,3,2026091,2026-09-01
+P33900+V33900,Case Farms Processing,Farmerville,LA,"Farmerville, LA",40,Chicken Parts,2,2026091,2026-09-01
+P34084,Edmunds Foods,Dahlonega,GA,"Dahlonega, GA",85,Chicken Parts,3,2026091,2026-09-01
+P341,Golden Rod Broilers,Cullman,AL,"Cullman, AL",90,Chicken Parts,2,2026091,2026-09-01
+P34308,Sanderson Farms,Waco,TX,"Waco, TX",40,Chicken Parts,1,2026091,2026-09-01
+P34805,Gold Creek Processing,Gainesville,GA,"Gainesville, GA",85,Chicken Parts,1,2026091,2026-09-01
+P39,Pine Manor,Orland,IN,"Orland, IN",50,Chicken Parts,3,2026091,2026-09-01
+P39915+V39915,LOCUST POINT FARMS,ELKTON,MD,"ELKTON, MD",80,Chicken Parts,2,2026091,2026-09-01
+P40,Pilgrim's Pride Corporation,Ellijay,GA,"Ellijay, GA",85,Chicken Parts,1,2026091,2026-09-01
+P40124,Gold Creek Processing,Gainesville,GA,"Gainesville, GA",85,Chicken Parts,1,2026091,2026-09-01
+P40183,Sanderson Farms,Kinston,NC,"Kinston, NC",80,Chicken Parts,2,2026091,2026-09-01
+P40345,Misty Lea Farm Poultry Processing,Pembroke,KY,"Pembroke, KY",90,Chicken Parts,1,2026091,2026-09-01
+P419,Case Farms Processing,Morganton,NC,"Morganton, NC",80,Chicken Parts,1,2026091,2026-09-01
+P44097,DG Foods,Bastrop,LA,"Bastrop, LA",40,Chicken Parts,1,2026091,2026-09-01
+P445,Wayne Farms,Dobson,NC,"Dobson, NC",80,Chicken Parts,1,2026091,2026-09-01
+P44817,Chick-A-Ray Poultry & Egg Co,Albemarle,NC,"Albemarle, NC",80,Chicken Parts,1,2026091,2026-09-01
+P44826,Case Farms Processing,Canton,OH,"Canton, OH",50,Chicken Parts,2,2026091,2026-09-01
+P44935,Gold Creek Processing,Gainesville,GA,"Gainesville, GA",85,Chicken Parts,2,2026091,2026-09-01
+P44992,Windy Meadows Family Farm,Campbell,TX,"Campbell, TX",40,Chicken Parts,2,2026091,2026-09-01
+P45379,Brakebush Hartwell,Hartwell,GA,"Hartwell, GA",85,Chicken Parts,1,2026091,2026-09-01
+P45483,Peco Foods,Pocahontas,AR,"Pocahontas, AR",35,Chicken Parts,1,2026091,2026-09-01
+P45910,Sanderson Farms,St Pauls,NC,"St Pauls, NC",80,Chicken Parts,1,2026091,2026-09-01
+P46027,Gold Creek Processing,Gainesville,GA,"Gainesville, GA",85,Chicken Parts,1,2026091,2026-09-01
+P46091,Ozark Mountain Poultry,Batesville,AR,"Batesville, AR",35,Chicken Parts,1,2026091,2026-09-01
+P46183,C &S Poultry,Monterey Park,CA,"Monterey Park, CA",05,Chicken Parts,1,2026091,2026-09-01
+P46213,Burgundy Pasture Poultry,Hillsboro,TX,"Hillsboro, TX",40,Chicken Parts,1,2026091,2026-09-01
+P46338,Allen Harim Foods,Millsboro,DE,"Millsboro, DE",80,Chicken Parts,3,2026091,2026-09-01
+P46374,Sanderson Farms Processing  Tyler Processing Division,Tyler,TX,"Tyler, TX",40,Chicken Parts,1,2026091,2026-09-01
+P46379+V46379,Peco Foods,West Point,MS,"West Point, MS",90,Chicken Parts,1,2026091,2026-09-01
+P46672,Norman W Fries,Sylvania,GA,"Sylvania, GA",85,Chicken Parts,2,2026091,2026-09-01
+P468,Peco Foods,Batesville,AR,"Batesville, AR",35,Chicken Parts,1,2026091,2026-09-01
+P46826,SHENANDOAH VALLEY ORGANIC,Harrisonburg,VA,"Harrisonburg, VA",80,Chicken Parts,1,2026091,2026-09-01
+P46826A,Shenandoah Valley Organic,Harrisonburg,VA,"Harrisonburg, VA",80,Chicken Parts,1,2026091,2026-09-01
+P46897,IHSAN FARMS IIC,PRINCESS ANNE,MD,"PRINCESS ANNE, MD",80,Chicken Parts,3,2026091,2026-09-01
+P46973,Zahran Import Export Wholesale,Long Island City,NY,"Long Island City, NY",60,Chicken Parts,3,2026091,2026-09-01
+P47016,Amick Farms,Ward,SC,"Ward, SC",85,Chicken Parts,1,2026091,2026-09-01
+P47591,Custom Craft Poultry,Little Rock,AR,"Little Rock, AR",35,Chicken Parts,2,2026091,2026-09-01
+P476,Pilgrim's Pride Corporation,Carrollton,GA,"Carrollton, GA",85,Chicken Parts,2,2026091,2026-09-01
+P47629,Soulshine Farms,Gainesville,GA,"Gainesville, GA",85,Chicken Parts,1,2026091,2026-09-01
+P47981,Carolina Precision Foods,Florence,SC,"Florence, SC",85,Chicken Parts,1,2026091,2026-09-01
+P48304,Loln Premium Poultry,Fremont,NE,"Fremont, NE",15,Chicken Parts,2,2026091,2026-09-01
+P48471,Soulshine Farms,Gainesville,GA,"Gainesville, GA",85,Chicken Parts,1,2026091,2026-09-01
+P486,Simmons Prepared Foods,Siloam Springs,AR,"Siloam Springs, AR",35,Chicken Parts,2,2026091,2026-09-01
+P509,Koch Foods,Morristown,TN,"Morristown, TN",90,Chicken Parts,2,2026091,2026-09-01
+P510,House Of Raeford Farms,Rose Hill,NC,"Rose Hill, NC",80,Chicken Parts,1,2026091,2026-09-01
+P51179+V51179,Sanderson Farms,Palestine,TX,"Palestine, TX",40,Chicken Parts,1,2026091,2026-09-01
+P51345,Pearl River Foods,Carthage,MS,"Carthage, MS",90,Chicken Parts,2,2026091,2026-09-01
+P517,Mar-Jac Poultry-MS,Hattiesburg,MS,"Hattiesburg, MS",90,Chicken Parts,1,2026091,2026-09-01
+P519,Amick Farms,Laurel,MS,"Laurel, MS",90,Chicken Parts,1,2026091,2026-09-01
+P522,Sanderson Farms  (Processing Div),Collins,MS,"Collins, MS",90,Chicken Parts,1,2026091,2026-09-01
+P529+V529,Pilgrim's Pride Corporation,Arcadia,WI,"Arcadia, WI",25,Chicken Parts,1,2026091,2026-09-01
+P533A,Table Trust Brands,Fredericksburg,PA,"Fredericksburg, PA",60,Chicken Parts,1,2026091,2026-09-01
+P548,JCG  Foods of Alabama,Collinsville,AL,"Collinsville, AL",90,Chicken Parts,2,2026091,2026-09-01
+P559,Tyson Foods,Albertville,AL,"Albertville, AL",90,Chicken Parts,1,2026091,2026-09-01
+P5787,Pilgrim's Pride Corporation,Natchitoches,LA,"Natchitoches, LA",40,Chicken Parts,2,2026091,2026-09-01
+P5840,Simmons Prepared Foods,Fort Smith,AR,"Fort Smith, AR",35,Chicken Parts,1,2026091,2026-09-01
+P6058,Perdue Foods,Mount Vernon,WA,"Mount Vernon, WA",15,Chicken Parts,2,2026091,2026-09-01
+P607,Tyson Foods,Rogers,AR,"Rogers, AR",35,Chicken Parts,1,2026091,2026-09-01
+P6137A,Foster Poultry Farms,Fresno,CA,"Fresno, CA",05,Chicken Parts,3,2026091,2026-09-01
+P6164A,Foster Poultry Farms,Kelso,WA,"Kelso, WA",15,Chicken Parts,3,2026091,2026-09-01
+P622,Tyson Foods,Monroe,NC,"Monroe, NC",80,Chicken Parts,1,2026091,2026-09-01
+P646,JCG Foods of Georgia,Pine Mt Valley,GA,"Pine Mt Valley, GA",85,Chicken Parts,1,2026091,2026-09-01
+P6504,Peco Foods,Tuscaloosa,AL,"Tuscaloosa, AL",90,Chicken Parts,1,2026091,2026-09-01
+P6505,Norman W Fries,Claxton,GA,"Claxton, GA",85,Chicken Parts,1,2026091,2026-09-01
+P6510,Peco Foods,Bay Springs,MS,"Bay Springs, MS",90,Chicken Parts,1,2026091,2026-09-01
+P6519B,Coastal Processing,Louisville,GA,"Louisville, GA",85,Chicken Parts,1,2026091,2026-09-01
+P6529,Koch Foods of  Montgomery AL,Montgomery,AL,"Montgomery, AL",90,Chicken Parts,1,2026091,2026-09-01
+P6616+V6616,Peco Foods,Sebastopol,MS,"Sebastopol, MS",90,Chicken Parts,1,2026091,2026-09-01
+P6638,Pilgrim's Pride Corporation,Enterprise,AL,"Enterprise, AL",90,Chicken Parts,2,2026091,2026-09-01
+P6651,Tyson Foods,Shelbyville,TN,"Shelbyville, TN",90,Chicken Parts,1,2026091,2026-09-01
+P6666,Koch Foods of Gadsden,Gadsden,AL,"Gadsden, AL",90,Chicken Parts,1,2026091,2026-09-01
+P6719+V6719,Pilgrim's Pride Corporation,Chattanooga,TN,"Chattanooga, TN",90,Chicken Parts,1,2026091,2026-09-01
+P687,House of Raeford,West Columbia,SC,"West Columbia, SC",85,Chicken Parts,1,2026091,2026-09-01
+P7044,Tyson Foods,Carthage,TX,"Carthage, TX",40,Chicken Parts,1,2026091,2026-09-01
+P705,Pilgrim's Pride Corporation,De Queen,AR,"De Queen, AR",35,Chicken Parts,1,2026091,2026-09-01
+P7085+V7085,Tyson Foods,Broken Bow,OK,"Broken Bow, OK",40,Chicken Parts,1,2026091,2026-09-01
+P7091,Pilgrim's Pride Corporation,Mount Pleasant,TX,"Mount Pleasant, TX",40,Chicken Parts,1,2026091,2026-09-01
+P7101,Tyson Foods,Clarksville,AR,"Clarksville, AR",35,Chicken Parts,1,2026091,2026-09-01
+P7156+V7156,Tyson Foods,Hope,AR,"Hope, AR",35,Chicken Parts,1,2026091,2026-09-01
+P72,Tyson Foods,Dardanelle,AR,"Dardanelle, AR",35,Chicken Parts,2,2026091,2026-09-01
+P7264+V7264,Sanderson Farms,Hammond,LA,"Hammond, LA",40,Chicken Parts,1,2026091,2026-09-01
+P727+V727,Simmons Prepared Foods,South West City,MO,"Southwest City, MO",35,Chicken Parts,1,2026091,2026-09-01
+P7342+V7342,Wayne Farms,Dothan,AL,"Dothan, AL",90,Chicken Parts,1,2026091,2026-09-01
+P7374,To-Ricos Ltd,Aibonito,PR,"Aibonito, PR",85,Chicken Parts,2,2026091,2026-09-01
+P7485+V7485,Wayne Farms,Jack,AL,"Jack, AL",90,Chicken Parts,1,2026091,2026-09-01
+P758,Tyson Foods,Carthage,MS,"Carthage, MS",90,Chicken Parts,2,2026091,2026-09-01
+P7632,Foster Poultry Farms,Fresno,CA,"Fresno, CA",05,Chicken Parts,3,2026091,2026-09-01
+P764,Perdue Foods,Salisbury,MD,"Salisbury, MD",80,Chicken Parts,1,2026091,2026-09-01
+P768+V768,Tyson Foods,Waldron,AR,"Waldron, AR",35,Chicken Parts,1,2026091,2026-09-01
+P7903,Perdue Foods,Accomac,VA,"Accomac, VA",80,Chicken Parts,1,2026091,2026-09-01
+P7927,AMICK FARMS,HURLOCK,MD,"HURLOCK, MD",80,Chicken Parts,1,2026091,2026-09-01
+P794,B&B Poultry Co,Norma,NJ,"Norma, NJ",80,Chicken Parts,1,2026091,2026-09-01
+P7987,Amick Farms,Batesburg,SC,"Batesburg, SC",85,Chicken Parts,1,2026091,2026-09-01
+P806,Tyson Foods,Temperanceville,VA,"Temperanceville, VA",80,Chicken Parts,1,2026091,2026-09-01
+P8107+V8107,Squab Producers Of California,Modesto,CA,"Modesto, CA",05,Chicken Parts,1,2026091,2026-09-01
+P843,Pilgrim's Pride Corporation,Marshville,NC,"Marshville, NC",80,Chicken Parts,1,2026091,2026-09-01
+P855,Pilgrim's Pride Corporation,Athens,GA,"Athens, GA",85,Chicken Parts,1,2026091,2026-09-01
+P855D,Pilgrim's Pride Corporation,Athens,GA,"Athens, GA",85,Chicken Parts,1,2026091,2026-09-01
+P890,Peco Foods,Canton,MS,"Canton, MS",90,Chicken Parts,2,2026091,2026-09-01
+P910,Harrison Poultry,Bethlehem,GA,"Bethlehem, GA",85,Chicken Parts,1,2026091,2026-09-01
+P912,Wayne Farms,Union Springs,AL,"Union Springs, AL",90,Chicken Parts,1,2026091,2026-09-01
+P9181,Koch Foods of Gainesville GA,Gainesville,GA,"Gainesville, GA",85,Chicken Parts,1,2026091,2026-09-01
+P9197,Perdue Foods,Lewiston Woodville,NC,"Lewiston Woodville, NC",80,Chicken Parts,1,2026091,2026-09-01
+P935,Allen Harim,Harbeson,DE,"Harbeson, DE",80,Chicken Parts,1,2026091,2026-09-01
+P9917,Philadelphia Poultry orporated,Philadelphia,PA,"Philadelphia, PA",60,Chicken Parts,1,2026091,2026-09-01
+M10017+P10017,Bert Hazekamp & Son,Muskegon,MI,"Muskegon, MI",50,Comminuted Chicken,3,2026091,2026-09-01
+M12604+P12604,Mulberry Farms,Gainesville,GA,"Gainesville, GA",85,Comminuted Chicken,3,2026091,2026-09-01
+M1542+P1542,Isernio's Sausage Co,Kent,WA,"Kent, WA",15,Comminuted Chicken,1,2026091,2026-09-01
+M17217A+P6403A+V17217A,Plymouth Poultry Co,Auburn,WA,"Auburn, WA",15,Comminuted Chicken,2,2026091,2026-09-01
+M1791+P27353,Best Chicago Meat Company,Chicago,IL,"Chicago, IL",50,Comminuted Chicken,3,2026091,2026-09-01
+M18237+P18237,Vital Foods,Abbeville,SC,"Abbeville, SC",85,Comminuted Chicken,3,2026091,2026-09-01
+M18506+P18506,Pride Enterprise Food Products,Raiford,FL,"Raiford, FL",85,Comminuted Chicken,3,2026091,2026-09-01
+M18527+P18527,Prime Meats,Tucker,GA,"Tucker, GA",85,Comminuted Chicken,1,2026091,2026-09-01
+M18726+P18726,Premio Foods,Brooksville,FL,"Brooksville, FL",85,Comminuted Chicken,2,2026091,2026-09-01
+M19566A+P19566A,Mr Pierogi,Brooklyn,NY,"Brooklyn, NY",60,Comminuted Chicken,2,2026091,2026-09-01
+M1991+P1991,Wonder Meats Snyder,Snyder,NE,"Snyder, NE",15,Comminuted Chicken,2,2026091,2026-09-01
+M20204+P20204+V20204,Denmark Sausage,Peoria,AZ,"Peoria, AZ",05,Comminuted Chicken,2,2026091,2026-09-01
+M27389+P27389+V27389,Pitman Farms,Sanger,CA,"Sanger, CA",05,Comminuted Chicken,3,2026091,2026-09-01
+M27505+P27505,Gold Creek Processing,Dawsonville,GA,"Dawsonville, GA",85,Comminuted Chicken,2,2026091,2026-09-01
+M2933+P2933+V2933,Syracuse Food Group,Ponder,TX,"Ponder, TX",40,Comminuted Chicken,3,2026091,2026-09-01
+M31843+P31843,State Farm Meat Plant,State Farm,VA,"State Farm, VA",80,Comminuted Chicken,3,2026091,2026-09-01
+M33861+P33861,Standard Meat Company,Saginaw,TX,"Saginaw, TX",40,Comminuted Chicken,3,2026091,2026-09-01
+M4398+P4398,DiLuigi Foods,Danvers,MA,"Danvers, MA",60,Comminuted Chicken,2,2026091,2026-09-01
+M4460+P4460+V4460,Great American Foods,Newark,NJ,"Newark, NJ",80,Comminuted Chicken,3,2026091,2026-09-01
+M45638+P45638,Trilogy Foods,Gainesville,GA,"Gainesville, GA",85,Comminuted Chicken,3,2026091,2026-09-01
+M4846+P4846,Heatherfield Foods,Moreno Valley,CA,"Moreno Valley, CA",05,Comminuted Chicken,3,2026091,2026-09-01
+M4934+P4934,T & J Sausage Kitchen,Anaheim,CA,"Anaheim, CA",05,Comminuted Chicken,3,2026091,2026-09-01
+M5351+P5351,Martin's Specialty Sausage Company,Mickleton,NJ,"Mickleton, NJ",80,Comminuted Chicken,3,2026091,2026-09-01
+M5562+P5562+V5562,S&S Quality Meats,Emporia,KS,"Emporia, KS",35,Comminuted Chicken,3,2026091,2026-09-01
+M5916+P5916+V5916,Longhini,New Haven,CT,"New Haven, CT",60,Comminuted Chicken,1,2026091,2026-09-01
+M6056A+P6056A,Schenk Packing Company Warehouse,Mount Vernon,WA,"Mount Vernon, WA",15,Comminuted Chicken,3,2026091,2026-09-01
+M6137+P6137,Foster Poultry Farms,Livingston,CA,"Livingston, CA",05,Comminuted Chicken,3,2026091,2026-09-01
+M7231+P7231,HEB Meat Plant,San Antonio,TX,"San Antonio, TX",40,Comminuted Chicken,2,2026091,2026-09-01
+M8139+P8139,Red Bird Farms Dist Co,Englewood,CO,"Englewood, CO",15,Comminuted Chicken,2,2026091,2026-09-01
+M9179+P9179,Uncle John's Pride,Tampa,FL,"Tampa, FL",85,Comminuted Chicken,1,2026091,2026-09-01
+P1243,Perdue Foods,Rockingham,NC,"Rockingham, NC",80,Comminuted Chicken,3,2026091,2026-09-01
+P1250,Fieldale Farms Corporation,Cornelia,GA,"Cornelia, GA",85,Comminuted Chicken,2,2026091,2026-09-01
+P2178,PERDUE FOODS,Georgetown,DE,"Georgetown, DE",80,Comminuted Chicken,3,2026091,2026-09-01
+P286,Perdue Foods,Washington,IN,"Washington, IN",50,Comminuted Chicken,2,2026091,2026-09-01
+P39915+V39915,LOCUST POINT FARMS,ELKTON,MD,"ELKTON, MD",80,Comminuted Chicken,3,2026091,2026-09-01
+P794,B&B Poultry Co,Norma,NJ,"Norma, NJ",80,Comminuted Chicken,2,2026091,2026-09-01
+P9332A,Diestel Turkey Ranch,Chinese Camp,CA,"Chinese Camp, CA",05,Comminuted Chicken,1,2026091,2026-09-01
+M1015+P1015+V1015,Empire Kosher Poultry,Mifflintown,PA,"Mifflintown, PA",60,Young Turkey Carcasses,1,2026091,2026-09-01
+M1655+P1655+V1655,Rashbe Holdings,Birdsboro,PA,"Birdsboro, PA",60,Young Turkey Carcasses,1,2026091,2026-09-01
+M18866+P551,Jennie-O Turkey Store Sales,Willmar,MN,"Willmar, MN",25,Young Turkey Carcasses,1,2026091,2026-09-01
+M20935+P20935,Michigan Turkey Producers Co-op,Wyoming,MI,"Wyoming, MI",50,Young Turkey Carcasses,1,2026091,2026-09-01
+M2130+P2130,Cooper Farms Processing,St. Henry,OH,"St. Henry, OH",50,Young Turkey Carcasses,1,2026091,2026-09-01
+M31727+P31727+V31727A,Kiryas Joel Poultry Processing Plant,Monroe,NY,"Monroe, NY",60,Young Turkey Carcasses,1,2026091,2026-09-01
+M32130+P32130+V32130,Dakota Provisions,Huron,SD,"Huron, SD",25,Young Turkey Carcasses,1,2026091,2026-09-01
+M4653A+P4653A+V4653A,Agri Star Meat and Poultry,Postville,IA,"Postville, IA",25,Young Turkey Carcasses,1,2026091,2026-09-01
+M544+P544+V4002,Legacy Turkey,Melrose,MN,"Melrose, MN",25,Young Turkey Carcasses,1,2026091,2026-09-01
+M5533+P5533+V5533,West Liberty Foods,West Liberty,IA,"West Liberty, IA",25,Young Turkey Carcasses,1,2026091,2026-09-01
+M579+P579+V579,Jennie-O Turkey Store,Faribault,MN,"Faribault, MN",25,Young Turkey Carcasses,1,2026091,2026-09-01
+M7345+P7345,Butterball,Mount Olive,NC,"Mount Olive, NC",80,Young Turkey Carcasses,1,2026091,2026-09-01
+M751+P1049,Pitman Farms  (Moroni Turkey Processing),Moroni,UT,"Moroni, UT",15,Young Turkey Carcasses,1,2026091,2026-09-01
+M757+P757+V757,The Hillshire Brands Company,Storm Lake,IA,"Storm Lake, IA",25,Young Turkey Carcasses,1,2026091,2026-09-01
+P1096A,VPGC,HINTON,VA,"HINTON, VA",80,Young Turkey Carcasses,1,2026091,2026-09-01
+P1209,Whitewater Processing,Harrison,OH,"Harrison, OH",50,Young Turkey Carcasses,1,2026091,2026-09-01
+P18,Pitman Farms,Dayton,VA,"Dayton, VA",80,Young Turkey Carcasses,1,2026091,2026-09-01
+P22000,Prestage Foods,St Pauls,NC,"St Pauls, NC",80,Young Turkey Carcasses,1,2026091,2026-09-01
+P244+V244A,Plainville Farms,New Oxford,PA,"New Oxford, PA",60,Young Turkey Carcasses,1,2026091,2026-09-01
+P286,Perdue Foods,Washington,IN,"Washington, IN",50,Young Turkey Carcasses,1,2026091,2026-09-01
+P38466,Sensenig Turkey Farm,Lititz,PA,"Lititz, PA",60,Young Turkey Carcasses,1,2026091,2026-09-01
+P425+V425,Northern Pride,Thief River Falls,MN,"Thief River Falls, MN",25,Young Turkey Carcasses,1,2026091,2026-09-01
+P44974+V44974,Goffle Road Poultry Farm,Wyckoff,NJ,"Wyckoff, NJ",80,Young Turkey Carcasses,1,2026091,2026-09-01
+P45131,Farbest Foods,Vincennes,IN,"Vincennes, IN",50,Young Turkey Carcasses,1,2026091,2026-09-01
+P511,Butterball,Ozark,AR,"Ozark, AR",35,Young Turkey Carcasses,1,2026091,2026-09-01
+P7174,Butterball,Huntsville,AR,"Huntsville, AR",35,Young Turkey Carcasses,1,2026091,2026-09-01
+P7669,Turkey Valley Farms,Marshall,MN,"Marshall, MN",25,Young Turkey Carcasses,1,2026091,2026-09-01
+P7769,Farbest Foods,Huntingburg,IN,"Huntingburg, IN",50,Young Turkey Carcasses,1,2026091,2026-09-01
+P8437+V8437,Koch's Turkey Farm,Tamaqua,PA,"Tamaqua, PA",60,Young Turkey Carcasses,1,2026091,2026-09-01
+P850,Turkey Coop Group,Camden,SC,"Camden, SC",85,Young Turkey Carcasses,1,2026091,2026-09-01
+P9332,Diestel Turkey Ranch,Sonora,CA,"Sonora, CA",05,Young Turkey Carcasses,1,2026091,2026-09-01
+P961,Pitman Farms,California,MO,"California, MO",35,Young Turkey Carcasses,1,2026091,2026-09-01
+M1015+P1015+V1015,Empire Kosher Poultry,Mifflintown,PA,"Mifflintown, PA",60,Comminuted Turkey,1,2026091,2026-09-01
+M15841+P15841,DiRusso's Sausage orporated,Youngstown,OH,"Youngstown, OH",50,Comminuted Turkey,1,2026091,2026-09-01
+M18726+P18726,Premio Foods,Brooksville,FL,"Brooksville, FL",85,Comminuted Turkey,1,2026091,2026-09-01
+M18866+P551,Jennie-O Turkey Store Sales,Willmar,MN,"Willmar, MN",25,Comminuted Turkey,1,2026091,2026-09-01
+M18909+P157,Diestel Turkey Ranch,Turlock,CA,"Turlock, CA",05,Comminuted Turkey,2,2026091,2026-09-01
+M190+P190+V190,Jennie-O Turkey Store,Barron,WI,"Barron, WI",25,Comminuted Turkey,1,2026091,2026-09-01
+M20935+P20935,Michigan Turkey Producers Co-op,Wyoming,MI,"Wyoming, MI",50,Comminuted Turkey,3,2026091,2026-09-01
+M2130+P2130,Cooper Farms Processing,St. Henry,OH,"St. Henry, OH",50,Comminuted Turkey,1,2026091,2026-09-01
+M4398+P4398,DiLuigi Foods,Danvers,MA,"Danvers, MA",60,Comminuted Turkey,3,2026091,2026-09-01
+M4460+P4460+V4460,Great American Foods,Newark,NJ,"Newark, NJ",80,Comminuted Turkey,1,2026091,2026-09-01
+M46205+P46205+V46205,Dakota Provisions - West,Huron,SD,"Huron, SD",25,Comminuted Turkey,3,2026091,2026-09-01
+M46870+P46870,Butterball,Raeford,NC,"Raeford, NC",80,Comminuted Turkey,3,2026091,2026-09-01
+M5292+P5292,G & L Meat Company,North Syracuse,NY,"North Syracuse, NY",60,Comminuted Turkey,1,2026091,2026-09-01
+M5351+P5351,Martin's Specialty Sausage Company,Mickleton,NJ,"Mickleton, NJ",80,Comminuted Turkey,2,2026091,2026-09-01
+M579+P579+V579,Jennie-O Turkey Store,Faribault,MN,"Faribault, MN",25,Comminuted Turkey,2,2026091,2026-09-01
+M5916+P5916+V5916,Longhini,New Haven,CT,"New Haven, CT",60,Comminuted Turkey,1,2026091,2026-09-01
+M7345+P7345,Butterball,Mount Olive,NC,"Mount Olive, NC",80,Comminuted Turkey,3,2026091,2026-09-01
+M751+P1049,Pitman Farms  (Moroni Turkey Processing),Moroni,UT,"Moroni, UT",15,Comminuted Turkey,3,2026091,2026-09-01
+M8727+P8727+V8727,Butterball,Carthage,MO,"Carthage, MO",35,Comminuted Turkey,3,2026091,2026-09-01
+M8983+P8983,Sysco Western Minnesota,St Cloud,MN,"St Cloud, MN",25,Comminuted Turkey,2,2026091,2026-09-01
+P1096A,VPGC,HINTON,VA,"HINTON, VA",80,Comminuted Turkey,1,2026091,2026-09-01
+P18,Pitman Farms,Dayton,VA,"Dayton, VA",80,Comminuted Turkey,3,2026091,2026-09-01
+P22000,Prestage Foods,St Pauls,NC,"St Pauls, NC",80,Comminuted Turkey,2,2026091,2026-09-01
+P244+V244A,Plainville Farms,New Oxford,PA,"New Oxford, PA",60,Comminuted Turkey,2,2026091,2026-09-01
+P286,Perdue Foods,Washington,IN,"Washington, IN",50,Comminuted Turkey,3,2026091,2026-09-01
+P7669,Turkey Valley Farms,Marshall,MN,"Marshall, MN",25,Comminuted Turkey,1,2026091,2026-09-01
+P8437+V8437,Koch's Turkey Farm,Tamaqua,PA,"Tamaqua, PA",60,Comminuted Turkey,1,2026091,2026-09-01
+P9332A,Diestel Turkey Ranch,Chinese Camp,CA,"Chinese Camp, CA",05,Comminuted Turkey,2,2026091,2026-09-01
+P961,Pitman Farms,California,MO,"California, MO",35,Comminuted Turkey,1,2026091,2026-09-01
